@@ -75,7 +75,7 @@ Rechten oder freier Lizenz. Beim Installieren lädt Zuhause das Modell herunter.
 | `build.type` | `korpus` (aus Spalten und Elementen) oder `modell` (3D-Modell mit Fächern) |
 | `plinth`, `board`, `back` | Sockelhöhe und Plattenstärke in cm, Rückwand ja/nein |
 | `columns[].size` | relative Breite der Spalte (von links nach rechts) |
-| `elements[].kind` | `drawer` Schublade, `door` Tür, `flap` Klappe, `open` offenes Fach, `cold` Kühlfach, `freezer` Gefrierfach |
+| `elements[].kind` | `drawer` Schublade, `door` Tür, `flap` Klappe, `open` offenes Fach, `cold` Kühlfach, `freezer` Gefrierfach, `washer` Waschmaschine, `dryer` Trockner – Geräte mit eigener Gerätefront (Bedienblende, Bullauge) statt Möbelfront und je zwei Fächern: oben Waschmittelfach bzw. Kondenswasserbehälter, darunter die Trommel (`label` benennt die Trommel; keine `shelves`) |
 | `elements[].size` | relative Höhe (von oben nach unten) |
 | `elements[].shelves` | bei `door` und `open`: Anzahl Böden – jeder Boden ist ein eigener Lagerplatz |
 | `elements[].label` | eigene Bezeichnung des Fachs (sonst „Schublade 2“, „Tür · Boden 1“ …) |

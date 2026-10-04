@@ -108,6 +108,10 @@ function preview(t: ObjectType) {
       const gw = Math.min(16, (col.x1 - col.x0) * 0.4);
       if (el.kind === 'drawer' || el.kind === 'flap' || el.kind === 'freezer') d += `<path d="M${X(cx - gw / 2)} ${Y(y1 - Math.min(6, (y1 - y0) * 0.25))}H${X(cx + gw / 2)}" ${st(2.4)}/>`;
       if (el.kind === 'open') for (let i = 1; i < (el.shelves ?? 1); i++) d += `<path d="M${X(col.x0)} ${Y(y1 - ((y1 - y0) * i) / (el.shelves ?? 1))}H${X(col.x1)}" ${s} stroke-dasharray="4 3"/>`;
+      if (el.kind === 'washer' || el.kind === 'dryer') {
+        const r = Math.min((col.x1 - col.x0) * 0.32, (y1 - y0) * 0.3) * k;
+        d += `<path d="M${X(col.x0)} ${Y(y1 - Math.min(13, (y1 - y0) * 0.3))}H${X(col.x1)}" ${s}/><circle cx="${X(cx)}" cy="${Y(y0 + (y1 - y0) * 0.42)}" r="${r.toFixed(1)}" fill="#cfd6db" ${st(2.4).replace('fill="none" ', '')}/>`;
+      }
       if (el.kind === 'door' || el.kind === 'cold') d += `<path d="M${X(col.x1 - 4)} ${Y((y0 + y1) / 2 + 6)}V${Y((y0 + y1) / 2 - 6)}" ${st(2.4)}/>`;
     }
   }
