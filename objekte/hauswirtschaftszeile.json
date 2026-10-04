@@ -1,0 +1,98 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.hauswirtschaftszeile",
+  "name": "Hauswirtschaftszeile mit Ausguss",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Komplette Zeile unter einer Arbeitsplatte: Ausgussbecken mit Unterschrank, Waschmaschine, Trockner und Schubladen für Putzmittel.",
+  "size": {
+    "width": 240,
+    "depth": 68,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      220,
+      240
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white",
+    "countertop": "wood-oak",
+    "sink": "sink-silgranit-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": false,
+    "countertop": {
+      "thickness": 4,
+      "overhang": 2,
+      "join": true
+    },
+    "columns": [
+      {
+        "size": 1.3,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 2.3,
+            "shelves": 1,
+            "label": "Unter dem Ausguss"
+          }
+        ]
+      },
+      {
+        "size": 1.3,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.3,
+            "label": "Waschmittelfach"
+          },
+          {
+            "kind": "door",
+            "size": 2,
+            "label": "Waschmaschine"
+          }
+        ]
+      },
+      {
+        "size": 1.3,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.3,
+            "label": "Kondenswasserbehälter"
+          },
+          {
+            "kind": "door",
+            "size": 2,
+            "label": "Trockner"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.77
+          },
+          {
+            "kind": "drawer",
+            "size": 0.77
+          },
+          {
+            "kind": "drawer",
+            "size": 0.77
+          }
+        ]
+      }
+    ]
+  }
+}

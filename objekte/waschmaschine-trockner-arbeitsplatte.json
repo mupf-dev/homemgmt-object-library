@@ -1,0 +1,69 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.waschmaschine-trockner-arbeitsplatte",
+  "name": "Waschmaschine + Trockner unter Arbeitsplatte",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Beide Geräte nebeneinander unter einer gemeinsamen Arbeitsplatte.",
+  "size": {
+    "width": 126,
+    "depth": 68,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      122,
+      126
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white",
+    "countertop": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": false,
+    "countertop": {
+      "thickness": 4,
+      "overhang": 2,
+      "join": true
+    },
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.3,
+            "label": "Waschmittelfach"
+          },
+          {
+            "kind": "door",
+            "size": 2,
+            "label": "Waschmaschine"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.3,
+            "label": "Kondenswasserbehälter"
+          },
+          {
+            "kind": "door",
+            "size": 2,
+            "label": "Trockner"
+          }
+        ]
+      }
+    ]
+  }
+}

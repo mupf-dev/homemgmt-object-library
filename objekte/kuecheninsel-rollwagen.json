@@ -3,7 +3,7 @@
   "id": "community.kuecheninsel-rollwagen",
   "name": "Kücheninsel auf Rollen",
   "group": "Küche",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Mobile Insel mit Holzplatte: zwei Schubladen, darunter offene Ablage für Körbe.",
@@ -28,6 +28,10 @@
     "plinth": 12,
     "board": 2,
     "back": true,
+    "countertop": {
+      "thickness": 3,
+      "overhang": 1
+    },
     "columns": [
       {
         "size": 1,

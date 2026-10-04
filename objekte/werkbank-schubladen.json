@@ -3,7 +3,7 @@
   "id": "community.werkbank-schubladen",
   "name": "Werkbank mit Schubladen",
   "group": "Werkstatt",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Werkbank: rechts Schubladenblock, links offenes Fach mit Boden.",
@@ -29,6 +29,10 @@
     "plinth": 10,
     "board": 2,
     "back": true,
+    "countertop": {
+      "thickness": 4,
+      "overhang": 2
+    },
     "columns": [
       {
         "size": 1.6,

@@ -98,6 +98,8 @@ function preview(t: ObjectType) {
   const X = (x: number) => (ox + (x + W / 2) * k).toFixed(1);
   const Y = (y: number) => (oy + (H - y) * k).toFixed(1);
   let d = `<rect x="${X(-W / 2)}" y="${Y(H)}" width="${(W * k).toFixed(1)}" height="${(H * k).toFixed(1)}" fill="#efe9df" stroke="#3d3a35" stroke-width="1.6"/>`;
+  const ct = t.build.countertop;
+  if (ct) d += `<rect x="${X(-W / 2)}" y="${Y(H)}" width="${(W * k).toFixed(1)}" height="${(ct.thickness * k).toFixed(1)}" fill="#b89a74" stroke="#3d3a35" stroke-width="1.6"/>`;
   for (const col of korpusLayout(t.build, W, H)) {
     for (const { el, y0, y1 } of col.elements) {
       const fill = el.kind === 'open' ? '#d9d1c4' : el.kind === 'cold' || el.kind === 'freezer' ? '#e4ecf2' : '#fbf8f3';

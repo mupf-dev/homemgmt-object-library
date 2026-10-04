@@ -3,7 +3,7 @@
   "id": "community.kuechen-unterschrank-4-schubladen",
   "name": "Küchen-Unterschrank 4 Schubladen",
   "group": "Küche",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Vier gleich hohe Schubladen für Kleinzeug, Folien und Gewürze.",
@@ -30,6 +30,11 @@
     "plinth": 10,
     "board": 1.8,
     "back": true,
+    "countertop": {
+      "thickness": 4,
+      "overhang": 2,
+      "join": true
+    },
     "columns": [
       {
         "size": 1,

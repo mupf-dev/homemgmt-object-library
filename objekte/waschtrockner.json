@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.waschtrockner",
+  "name": "Waschtrockner",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Kombigerät, das wäscht und trocknet – spart den Platz für ein zweites Gerät.",
+  "size": {
+    "width": 60,
+    "depth": 60,
+    "height": 85,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 1,
+    "board": 1,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.15,
+            "label": "Waschmittelfach"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Waschtrockner"
+          }
+        ]
+      }
+    ]
+  }
+}

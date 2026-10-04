@@ -3,7 +3,7 @@
   "id": "community.apothekerschrank-15",
   "name": "Apothekerschrank 15",
   "group": "Küche",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmaler Unterschrank-Auszug neben dem Herd für Öle und Gewürze, drei Ebenen.",
@@ -20,13 +20,19 @@
   "snapToWall": true,
   "materials": {
     "carcass": "lack-white",
-    "front": "lack-white"
+    "front": "lack-white",
+    "countertop": "wood-oak"
   },
   "build": {
     "type": "korpus",
     "plinth": 10,
     "board": 1.6,
     "back": true,
+    "countertop": {
+      "thickness": 4,
+      "overhang": 2,
+      "join": true
+    },
     "columns": [
       {
         "size": 1,

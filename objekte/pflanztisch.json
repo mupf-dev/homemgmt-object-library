@@ -3,7 +3,7 @@
   "id": "community.pflanztisch",
   "name": "Pflanztisch",
   "group": "Garten & Garage",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Arbeitstisch für Garten und Balkon: Schublade für Werkzeug, darunter Böden für Töpfe und Erde.",
@@ -20,13 +20,18 @@
   "snapToWall": true,
   "materials": {
     "carcass": "wood-oak",
-    "front": "wood-oak"
+    "front": "wood-oak",
+    "countertop": "wood-oak"
   },
   "build": {
     "type": "korpus",
     "plinth": 0,
     "board": 2.5,
     "back": false,
+    "countertop": {
+      "thickness": 3,
+      "overhang": 1
+    },
     "columns": [
       {
         "size": 1,

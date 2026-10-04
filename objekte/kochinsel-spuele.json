@@ -3,7 +3,7 @@
   "id": "community.kochinsel-spuele",
   "name": "Kücheninsel mit Spüle",
   "group": "Küche",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Spülinsel: Spülenschrank mit Mülltrennung, Geschirrspüler-Nische und Auszüge für Geschirr.",
@@ -30,6 +30,10 @@
     "plinth": 10,
     "board": 1.8,
     "back": true,
+    "countertop": {
+      "thickness": 4,
+      "overhang": 2
+    },
     "columns": [
       {
         "size": 1,

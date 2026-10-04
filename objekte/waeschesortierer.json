@@ -3,7 +3,7 @@
   "id": "community.waeschesortierer",
   "name": "Wäscheschrank Hauswirtschaft",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Drei Wäschesammler-Auszüge (hell, dunkel, bunt) unter einer Arbeitsfläche zum Falten.",
@@ -28,6 +28,10 @@
     "plinth": 5,
     "board": 1.6,
     "back": true,
+    "countertop": {
+      "thickness": 3,
+      "overhang": 2
+    },
     "columns": [
       {
         "size": 1,
