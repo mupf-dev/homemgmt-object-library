@@ -146,6 +146,7 @@ function gallery() {
   .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 4px; }
+  .card[hidden] { display: none; }
   .card img { width: 100%; aspect-ratio: 4 / 3; border-radius: 9px; }
   .card h3 { margin: 6px 0 0; font-size: 17px; }
   .card p { margin: 0; }
