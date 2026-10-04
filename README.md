@@ -81,6 +81,7 @@ Rechten oder freier Lizenz. Beim Installieren lädt Zuhause das Modell herunter.
 | `elements[].label` | eigene Bezeichnung des Fachs (sonst „Schublade 2“, „Tür · Boden 1“ …) |
 | `countertop` | optional: Arbeitsplatte oben, z. B. Waschmaschine unter Arbeitsplatte oder Hauswirtschaftszeile – `thickness` Stärke in cm (1–10, Standard 4), `overhang` Überstand vorne in cm (0–10, Standard 2), `join: true` = geht in angrenzende Küchen-Unterschränke über (durchgehende Platte). Die Platte ist kein Fach; `size.height` ist die Gesamthöhe inklusive Platte, der Korpus wird entsprechend niedriger. Material: `materials.countertop` |
 | `materials` | Kennungen der Materialien (`front`, `carcass`, `handle`, `countertop` …), wie in der App |
+| `materials.appliance` | Gerätefarbe von Waschmaschine und Trockner (`washer`, `dryer`), eine Material-Kennung wie `lack-white`, `lack-black`, `lack-anthracite` oder `metal-steel`. Bei dunklen und metallischen Farben wird die Bedienblende zu Schwarzglas und der Türring zu Chrom. Ohne Angabe ist die Gerätefront weiß. Lässt sich je Möbel im Hausplan umstellen. |
 
 Beispiel mit Arbeitsplatte (Waschmaschine unter Arbeitsplatte, Teil der Küchenzeile):
 
