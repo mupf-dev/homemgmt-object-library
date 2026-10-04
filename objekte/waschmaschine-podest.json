@@ -3,7 +3,7 @@
   "id": "community.waschmaschine-podest",
   "name": "Waschmaschine auf Podest",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Frontlader auf einem 40 cm hohen Podest mit Schublade – rückenschonend beladen.",
@@ -28,13 +28,8 @@
         "size": 1,
         "elements": [
           {
-            "kind": "drawer",
-            "size": 0.3,
-            "label": "Waschmittelfach"
-          },
-          {
-            "kind": "door",
-            "size": 2,
+            "kind": "washer",
+            "size": 2.3,
             "label": "Waschmaschine"
           },
           {

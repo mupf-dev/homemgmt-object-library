@@ -3,7 +3,7 @@
   "id": "community.wasch-trocken-saeule",
   "name": "Wasch-Trocken-Säule",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Trockner auf der Waschmaschine mit Zwischenbaurahmen und ausziehbarer Ablage für den Wäschekorb.",
@@ -28,13 +28,8 @@
         "size": 1,
         "elements": [
           {
-            "kind": "drawer",
-            "size": 0.3,
-            "label": "Kondenswasserbehälter"
-          },
-          {
-            "kind": "door",
-            "size": 2,
+            "kind": "dryer",
+            "size": 2.3,
             "label": "Trockner"
           },
           {
@@ -43,13 +38,8 @@
             "label": "Ablageauszug (Zwischenrahmen)"
           },
           {
-            "kind": "drawer",
-            "size": 0.3,
-            "label": "Waschmittelfach"
-          },
-          {
-            "kind": "door",
-            "size": 2,
+            "kind": "washer",
+            "size": 2.3,
             "label": "Waschmaschine"
           }
         ]

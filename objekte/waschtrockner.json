@@ -3,7 +3,7 @@
   "id": "community.waschtrockner",
   "name": "Waschtrockner",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kombigerät, das wäscht und trocknet – spart den Platz für ein zweites Gerät.",
@@ -28,13 +28,8 @@
         "size": 1,
         "elements": [
           {
-            "kind": "drawer",
-            "size": 0.15,
-            "label": "Waschmittelfach"
-          },
-          {
-            "kind": "door",
-            "size": 1,
+            "kind": "washer",
+            "size": 1.15,
             "label": "Waschtrockner"
           }
         ]

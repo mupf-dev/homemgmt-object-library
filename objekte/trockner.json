@@ -3,7 +3,7 @@
   "id": "community.trockner",
   "name": "Wärmepumpentrockner",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter.",
@@ -14,29 +14,35 @@
     "elevation": 0
   },
   "snapToWall": true,
-  "materials": {
-    "carcass": "lack-white",
-    "front": "lack-white"
-  },
   "build": {
-    "type": "korpus",
-    "plinth": 1,
-    "board": 1,
-    "back": true,
-    "columns": [
+    "type": "modell",
+    "model": {
+      "file": "modelle/trockner.glb",
+      "name": "Wärmepumpentrockner"
+    },
+    "compartments": [
       {
-        "size": 1,
-        "elements": [
-          {
-            "kind": "drawer",
-            "size": 0.3,
-            "label": "Kondenswasserbehälter"
-          },
-          {
-            "kind": "door",
-            "size": 2,
-            "label": "Trockner"
-          }
+        "label": "Kondenswasserbehälter",
+        "kind": "drawer",
+        "box": [
+          0.025,
+          0.425,
+          0.86,
+          0.97,
+          0.5,
+          1
+        ]
+      },
+      {
+        "label": "Trockner",
+        "kind": "door",
+        "box": [
+          0.14,
+          0.86,
+          0.2,
+          0.72,
+          0.1,
+          0.95
         ]
       }
     ]

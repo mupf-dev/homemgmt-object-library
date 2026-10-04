@@ -109,6 +109,7 @@ Bei `modell`:
 |------|--------|
 | `objekte/` | eine Datei je Möbelart |
 | `modelle/` | 3D-Modelle (.glb) zu Möbelarten vom Typ `modell` |
+| `tools/geraete-modelle.ts` | erzeugt die Geräte-Modelle unter `modelle/` (Waschmaschine, Trockner): `node tools/geraete-modelle.ts` |
 | `tools/objects.ts` | Prüfung des Formats – Kopie aus Homemgmt (`web/app/src/model/objects.ts`), bei Formatänderungen übernehmen |
 | `tools/build.ts` | prüft alles und erzeugt `_site/` (`index.json` im Format `zuhause-katalog/1`, Vorschaubilder, Galerie) |
 | `.github/workflows/pages.yml` | Pull Requests prüfen, `main` auf GitHub Pages veröffentlichen |

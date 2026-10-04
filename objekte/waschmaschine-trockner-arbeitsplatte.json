@@ -3,7 +3,7 @@
   "id": "community.waschmaschine-trockner-arbeitsplatte",
   "name": "Waschmaschine + Trockner unter Arbeitsplatte",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Beide Geräte nebeneinander unter einer gemeinsamen Arbeitsplatte.",
@@ -38,13 +38,8 @@
         "size": 1,
         "elements": [
           {
-            "kind": "drawer",
-            "size": 0.3,
-            "label": "Waschmittelfach"
-          },
-          {
-            "kind": "door",
-            "size": 2,
+            "kind": "washer",
+            "size": 2.3,
             "label": "Waschmaschine"
           }
         ]
@@ -53,13 +48,8 @@
         "size": 1,
         "elements": [
           {
-            "kind": "drawer",
-            "size": 0.3,
-            "label": "Kondenswasserbehälter"
-          },
-          {
-            "kind": "door",
-            "size": 2,
+            "kind": "dryer",
+            "size": 2.3,
             "label": "Trockner"
           }
         ]
