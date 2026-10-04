@@ -1,9 +1,9 @@
 {
   "format": "zuhause-objekt/1",
   "id": "community.waschmaschine",
-  "name": "Waschmaschine (Frontlader)",
+  "name": "Waschmaschine (Frontlader) weiß",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehender Frontlader 60 cm: Waschmittelfach oben, Trommel mit Bullauge.",
@@ -18,7 +18,7 @@
     "type": "modell",
     "model": {
       "file": "modelle/waschmaschine.glb",
-      "name": "Waschmaschine (Frontlader)"
+      "name": "Waschmaschine (Frontlader) weiß"
     },
     "compartments": [
       {

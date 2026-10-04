@@ -1,12 +1,12 @@
 {
   "format": "zuhause-objekt/1",
-  "id": "community.trockner",
-  "name": "Wärmepumpentrockner weiß",
+  "id": "community.trockner-edelstahl",
+  "name": "Wärmepumpentrockner Edelstahl",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.2",
+  "version": "1.0",
   "author": "Zuhause",
   "license": "CC0-1.0",
-  "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter.",
+  "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter – mit Edelstahlfront und dunkler Bedienblende.",
   "size": {
     "width": 60,
     "depth": 65,
@@ -17,8 +17,8 @@
   "build": {
     "type": "modell",
     "model": {
-      "file": "modelle/trockner.glb",
-      "name": "Wärmepumpentrockner weiß"
+      "file": "modelle/trockner-edelstahl.glb",
+      "name": "Wärmepumpentrockner Edelstahl"
     },
     "compartments": [
       {

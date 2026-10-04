@@ -1,12 +1,12 @@
 {
   "format": "zuhause-objekt/1",
-  "id": "community.trockner",
-  "name": "Wärmepumpentrockner weiß",
+  "id": "community.trockner-anthrazit",
+  "name": "Wärmepumpentrockner anthrazit",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.2",
+  "version": "1.0",
   "author": "Zuhause",
   "license": "CC0-1.0",
-  "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter.",
+  "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter – in Anthrazit (Graphit).",
   "size": {
     "width": 60,
     "depth": 65,
@@ -17,8 +17,8 @@
   "build": {
     "type": "modell",
     "model": {
-      "file": "modelle/trockner.glb",
-      "name": "Wärmepumpentrockner weiß"
+      "file": "modelle/trockner-anthrazit.glb",
+      "name": "Wärmepumpentrockner anthrazit"
     },
     "compartments": [
       {

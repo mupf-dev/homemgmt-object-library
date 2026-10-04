@@ -1,15 +1,15 @@
 {
   "format": "zuhause-objekt/1",
-  "id": "community.trockner",
-  "name": "Wärmepumpentrockner weiß",
+  "id": "community.waschmaschine-anthrazit",
+  "name": "Waschmaschine (Frontlader) anthrazit",
   "group": "Keller & Hauswirtschaft",
-  "version": "1.2",
+  "version": "1.0",
   "author": "Zuhause",
   "license": "CC0-1.0",
-  "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter.",
+  "description": "Freistehender Frontlader 60 cm: Waschmittelfach oben, Trommel mit Bullauge – in Anthrazit (Graphit).",
   "size": {
     "width": 60,
-    "depth": 65,
+    "depth": 60,
     "height": 85,
     "elevation": 0
   },
@@ -17,16 +17,16 @@
   "build": {
     "type": "modell",
     "model": {
-      "file": "modelle/trockner.glb",
-      "name": "Wärmepumpentrockner weiß"
+      "file": "modelle/waschmaschine-anthrazit.glb",
+      "name": "Waschmaschine (Frontlader) anthrazit"
     },
     "compartments": [
       {
-        "label": "Kondenswasserbehälter",
+        "label": "Waschmittelfach",
         "kind": "drawer",
         "box": [
           0.025,
-          0.425,
+          0.31,
           0.86,
           0.97,
           0.5,
@@ -34,7 +34,7 @@
         ]
       },
       {
-        "label": "Trockner",
+        "label": "Waschmaschine",
         "kind": "door",
         "box": [
           0.14,

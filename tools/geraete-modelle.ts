@@ -1,6 +1,6 @@
 // Erzeugt einfache 3D-Modelle (.glb) für Haushaltsgeräte, die ein Korpus nicht darstellen kann (rundes Bullauge,
 // Bedienblende). Ohne Abhängigkeiten: Quader und Zylinder werden direkt als glTF-Binärdatei geschrieben.
-//   node tools/geraete-modelle.ts   → modelle/waschmaschine.glb, modelle/trockner.glb
+//   node tools/geraete-modelle.ts   → modelle/waschmaschine[-farbe].glb, modelle/trockner[-farbe].glb (weiß, schwarz, edelstahl, anthrazit)
 // Einheiten Meter, Ursprung Mitte unten, Front zeigt nach +Z (wie Korpus-Möbel in Zuhause).
 
 import { writeFileSync } from 'node:fs';
@@ -113,35 +113,42 @@ class Model {
   }
 }
 
-const WHITE: Mat = { name: 'Gehäuse', color: [0.93, 0.93, 0.92], roughness: 0.35 };
-const PANEL: Mat = { name: 'Bedienblende', color: [0.78, 0.79, 0.8], roughness: 0.3 };
-const SEAM: Mat = { name: 'Fuge', color: [0.35, 0.36, 0.38], roughness: 0.6 };
 const DARK: Mat = { name: 'Display', color: [0.04, 0.05, 0.06], roughness: 0.15 };
-const GRAPHITE: Mat = { name: 'Graphit', color: [0.22, 0.23, 0.25], roughness: 0.4 };
 const CHROME: Mat = { name: 'Chrom', color: [0.8, 0.81, 0.83], metallic: 1, roughness: 0.22 };
 const STEEL: Mat = { name: 'Trommel', color: [0.55, 0.56, 0.58], metallic: 1, roughness: 0.45 };
 const GLASS: Mat = { name: 'Glas', color: [0.25, 0.3, 0.35], roughness: 0.05, alpha: 0.4 };
 const FEET: Mat = { name: 'Füße', color: [0.12, 0.12, 0.12], roughness: 0.8 };
 
+/** Farbausführung: Gehäuse, Bedienblende, Fugen, Griffmulde/Lüftungsgitter, Türring des Trockners */
+interface Finish { body: Mat; panel: Mat; seam: Mat; trim: Mat; dryerRing: Mat }
+/** Grauton c als lineare Farbe (glTF), nicht sRGB: 0.05 ≈ Anthrazit, 0.008 ≈ Schwarz */
+const mat = (name: string, c: number, extra: Partial<Mat> = {}): Mat => ({ name, color: [c, c, c * 1.02], roughness: 0.35, ...extra });
+export const FINISHES: Record<string, Finish> = {
+  weiss: { body: mat('Gehäuse', 0.93), panel: mat('Bedienblende', 0.78, { roughness: 0.3 }), seam: mat('Fuge', 0.35, { roughness: 0.6 }), trim: mat('Graphit', 0.22, { roughness: 0.4 }), dryerRing: mat('Türring', 0.03) },
+  schwarz: { body: mat('Gehäuse', 0.008, { roughness: 0.3 }), panel: mat('Bedienblende', 0.004, { roughness: 0.15 }), seam: mat('Fuge', 0.05, { roughness: 0.6 }), trim: mat('Graphit', 0.08, { roughness: 0.4 }), dryerRing: CHROME },
+  edelstahl: { body: mat('Gehäuse', 0.72, { metallic: 1, roughness: 0.38 }), panel: mat('Bedienblende', 0.012, { roughness: 0.2 }), seam: mat('Fuge', 0.1, { roughness: 0.6 }), trim: mat('Graphit', 0.04, { roughness: 0.4 }), dryerRing: mat('Türring', 0.03) },
+  anthrazit: { body: mat('Gehäuse', 0.045, { roughness: 0.4 }), panel: mat('Bedienblende', 0.015, { roughness: 0.25 }), seam: mat('Fuge', 0.01, { roughness: 0.6 }), trim: mat('Graphit', 0.15, { roughness: 0.4 }), dryerRing: CHROME },
+};
+
 /** Frontlader-Grundkörper: W × D × H in m, Front bei z = +D/2 */
-function frontloader(W: number, D: number, H: number, ring: Mat, drawerW: number) {
+function frontloader(W: number, D: number, H: number, f: Finish, ring: Mat, drawerW: number) {
   const m = new Model();
   const x0 = -W / 2, x1 = W / 2, zb = -D / 2, zf = D / 2 - 0.035;
   const feet = 0.012;
   for (const [fx, fz] of [[x0 + 0.04, zb + 0.04], [x1 - 0.07, zb + 0.04], [x0 + 0.04, zf - 0.07], [x1 - 0.07, zf - 0.07]]) m.box(FEET, fx, fx + 0.03, 0, feet, fz, fz + 0.03);
-  m.box(WHITE, x0, x1, feet, H, zb, zf);
+  m.box(f.body, x0, x1, feet, H, zb, zf);
   // Bedienblende oben
   const pTop = H - 0.004, pBot = H - 0.135;
-  m.box(PANEL, x0 + 0.002, x1 - 0.002, pBot, pTop, zf, zf + 0.012);
-  m.box(SEAM, x0 + 0.002, x1 - 0.002, pBot - 0.006, pBot, zf, zf + 0.006); // Fuge unter der Blende
-  m.box(SEAM, x0 + 0.012, x0 + 0.018 + drawerW, pBot + 0.015, pTop - 0.015, zf + 0.012, zf + 0.013); // Fuge um die Schublade
-  m.box(WHITE, x0 + 0.015, x0 + 0.015 + drawerW, pBot + 0.018, pTop - 0.018, zf + 0.013, zf + 0.019); // Schublade
-  m.box(GRAPHITE, x0 + 0.03, x0 + 0.03 + Math.min(0.08, drawerW - 0.03), pBot + 0.024, pBot + 0.034, zf + 0.019, zf + 0.022); // Griffmulde
+  m.box(f.panel, x0 + 0.002, x1 - 0.002, pBot, pTop, zf, zf + 0.012);
+  m.box(f.seam, x0 + 0.002, x1 - 0.002, pBot - 0.006, pBot, zf, zf + 0.006); // Fuge unter der Blende
+  m.box(f.seam, x0 + 0.012, x0 + 0.018 + drawerW, pBot + 0.015, pTop - 0.015, zf + 0.012, zf + 0.013); // Fuge um die Schublade
+  m.box(f.body, x0 + 0.015, x0 + 0.015 + drawerW, pBot + 0.018, pTop - 0.018, zf + 0.013, zf + 0.019); // Schublade
+  m.box(f.trim, x0 + 0.03, x0 + 0.03 + Math.min(0.08, drawerW - 0.03), pBot + 0.024, pBot + 0.034, zf + 0.019, zf + 0.022); // Griffmulde
   m.box(DARK, x0 + drawerW + 0.06, x0 + drawerW + 0.2, pBot + 0.04, pTop - 0.04, zf + 0.012, zf + 0.016); // Display
   m.ring(CHROME, x1 - 0.085, (pBot + pTop) / 2, 0, 0.034, zf + 0.012, zf + 0.032); // Drehknopf
   m.box(DARK, x1 - 0.088, x1 - 0.082, (pBot + pTop) / 2 + 0.012, (pBot + pTop) / 2 + 0.03, zf + 0.032, zf + 0.034);
   // Front unten mit Bullauge
-  m.box(WHITE, x0 + 0.002, x1 - 0.002, feet + 0.03, pBot - 0.004, zf, zf + 0.008);
+  m.box(f.body, x0 + 0.002, x1 - 0.002, feet + 0.03, pBot - 0.004, zf, zf + 0.008);
   const cy = (feet + 0.03 + pBot) / 2 + 0.01;
   const rOut = Math.min(W * 0.36, (pBot - feet) * 0.42);
   m.ring(STEEL, 0, cy, 0, rOut * 0.72, zf + 0.008, zf + 0.009); // Trommel dahinter
@@ -149,17 +156,20 @@ function frontloader(W: number, D: number, H: number, ring: Mat, drawerW: number
   m.ring(GLASS, 0, cy, 0, rOut * 0.74, zf + 0.012, zf + 0.03); // Glas
   m.box(ring, rOut * 0.78, rOut * 0.98, cy - 0.045, cy + 0.045, zf + 0.035, zf + 0.045); // Türgriff
   // Serviceklappe (Flusensieb/Pumpe)
-  m.box(PANEL, x1 - 0.13, x1 - 0.03, feet + 0.04, feet + 0.1, zf + 0.008, zf + 0.011);
+  m.box(f.seam, x1 - 0.13, x1 - 0.03, feet + 0.04, feet + 0.1, zf + 0.008, zf + 0.011);
+  m.box(f.body, x1 - 0.127, x1 - 0.033, feet + 0.043, feet + 0.097, zf + 0.011, zf + 0.012);
   return m;
 }
 
-const washer = frontloader(0.6, 0.6, 0.85, CHROME, 0.17);
-writeFileSync(join(ROOT, 'modelle/waschmaschine.glb'), washer.glb('Waschmaschine'));
-
-const DRYER_RING: Mat = { name: 'Türring', color: [0.14, 0.15, 0.17], roughness: 0.35 };
-const dryer = frontloader(0.6, 0.65, 0.85, DRYER_RING, 0.24);
-// Lüftungsgitter unten links (Wärmepumpe)
-for (let i = 0; i < 5; i++) dryer.box(GRAPHITE, -0.27, -0.13, 0.055 + i * 0.014, 0.062 + i * 0.014, 0.65 / 2 - 0.027, 0.65 / 2 - 0.024);
-writeFileSync(join(ROOT, 'modelle/trockner.glb'), dryer.glb('Trockner'));
-
-console.log('✓ modelle/waschmaschine.glb, modelle/trockner.glb');
+const written: string[] = [];
+for (const [key, f] of Object.entries(FINISHES)) {
+  const suffix = key === 'weiss' ? '' : `-${key}`;
+  const washer = frontloader(0.6, 0.6, 0.85, f, CHROME, 0.17);
+  writeFileSync(join(ROOT, `modelle/waschmaschine${suffix}.glb`), washer.glb('Waschmaschine'));
+  const dryer = frontloader(0.6, 0.65, 0.85, f, f.dryerRing, 0.24);
+  // Lüftungsgitter unten links (Wärmepumpe)
+  for (let i = 0; i < 5; i++) dryer.box(f.trim, -0.27, -0.13, 0.055 + i * 0.014, 0.062 + i * 0.014, 0.65 / 2 - 0.027, 0.65 / 2 - 0.024);
+  writeFileSync(join(ROOT, `modelle/trockner${suffix}.glb`), dryer.glb('Trockner'));
+  written.push(`waschmaschine${suffix}.glb`, `trockner${suffix}.glb`);
+}
+console.log(`✓ modelle/: ${written.join(', ')}`);
