@@ -1,0 +1,6 @@
+Die Möbelarten in diesem Repository stehen jeweils unter der Lizenz, die in ihrer Datei im Feld "license" angegeben
+ist (CC0-1.0, CC-BY-4.0 oder CC-BY-SA-4.0). Ohne andere Angabe gilt CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Die Werkzeuge unter tools/ stammen aus Homemgmt (https://github.com/mupf-dev/Homemgmt) und stehen wie dieses
+unter der GNU Affero General Public License 3.0.

@@ -1,0 +1,12 @@
+{
+  "name": "homemgmt-object-library",
+  "version": "1.0.0",
+  "description": "Community-Katalog mit Möbelarten für Zuhause (Homemgmt)",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "check": "node --disable-warning=ExperimentalWarning tools/build.ts --check",
+    "build": "node --disable-warning=ExperimentalWarning tools/build.ts"
+  }
+}
