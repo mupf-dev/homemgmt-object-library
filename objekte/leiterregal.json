@@ -1,0 +1,42 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.leiterregal",
+  "name": "Leiterregal",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schmales Leiterregal mit fünf Ebenen für Pflanzen und Deko.",
+  "size": {
+    "width": 60,
+    "depth": 40,
+    "height": 180,
+    "elevation": 0,
+    "widths": [
+      45,
+      60
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-ash-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 5
+          }
+        ]
+      }
+    ]
+  }
+}

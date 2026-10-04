@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.frontal-buecherregal",
+  "name": "Bücherregal frontal (Kinder)",
+  "group": "Kinderzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Flaches Regal mit vier Leisten – Bücher stehen mit dem Cover nach vorn.",
+  "size": {
+    "width": 80,
+    "depth": 15,
+    "height": 110,
+    "elevation": 0,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-ash-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 4,
+            "label": "Bücherleiste"
+          }
+        ]
+      }
+    ]
+  }
+}

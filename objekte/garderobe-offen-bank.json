@@ -1,0 +1,58 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.garderobe-offen-bank",
+  "name": "Garderobe offen mit Bank",
+  "group": "Diele",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Offene Garderobe: Hutablage, Jackenhaken, Sitzbank mit Schuhfach darunter.",
+  "size": {
+    "width": 120,
+    "depth": 40,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      100,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2.5,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 0.4,
+            "label": "Hutablage"
+          },
+          {
+            "kind": "open",
+            "size": 2,
+            "label": "Jacken"
+          },
+          {
+            "kind": "open",
+            "size": 0.2,
+            "label": "Sitzbank"
+          },
+          {
+            "kind": "open",
+            "size": 0.6,
+            "shelves": 2,
+            "label": "Schuhe"
+          }
+        ]
+      }
+    ]
+  }
+}

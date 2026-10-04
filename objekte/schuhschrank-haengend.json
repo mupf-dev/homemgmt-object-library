@@ -1,0 +1,53 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.schuhschrank-haengend",
+  "name": "Schuhschrank hängend",
+  "group": "Diele",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schwebender, griffloser Schuhschrank – Platz zum Wischen darunter, oben Ablage für Schlüssel.",
+  "size": {
+    "width": 120,
+    "depth": 30,
+    "height": 55,
+    "elevation": 25,
+    "widths": [
+      80,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

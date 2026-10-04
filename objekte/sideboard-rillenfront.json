@@ -1,0 +1,74 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.sideboard-rillenfront",
+  "name": "Sideboard Rillenfront",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Sideboard im Midcentury-Stil mit Rillenfront und Füßen – vier Türen, innen je ein Boden.",
+  "size": {
+    "width": 180,
+    "depth": 45,
+    "height": 75,
+    "elevation": 0,
+    "widths": [
+      160,
+      180,
+      200
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 14,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

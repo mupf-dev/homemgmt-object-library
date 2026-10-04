@@ -1,0 +1,66 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.waschturm",
+  "name": "Waschturm",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schrank für Waschmaschine und Trockner übereinander, oben ein Fach für Waschmittel, seitlich Wäschekorb-Auszug.",
+  "size": {
+    "width": 70,
+    "depth": 65,
+    "height": 220,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.5,
+            "shelves": 1,
+            "label": "Waschmittel"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Trockner"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Waschmaschine"
+          }
+        ]
+      },
+      {
+        "size": 0.45,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 4,
+            "label": "Putzzeug"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.5,
+            "label": "Wäschekorb"
+          }
+        ]
+      }
+    ]
+  }
+}

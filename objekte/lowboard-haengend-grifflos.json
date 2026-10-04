@@ -1,0 +1,62 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.lowboard-haengend-grifflos",
+  "name": "Lowboard hängend grifflos",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schwebendes TV-Lowboard mit Push-to-open: zwei Klappen, Mitte offen für Geräte.",
+  "size": {
+    "width": 200,
+    "depth": 40,
+    "height": 35,
+    "elevation": 30,
+    "widths": [
+      160,
+      200,
+      240
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 0.8,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Geräte"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.nischenregal-dusche",
+  "name": "Duschnische",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Eingeflieste Wandnische in der Dusche mit zwei Ablagen für Shampoo und Seife.",
+  "size": {
+    "width": 60,
+    "depth": 10,
+    "height": 30,
+    "elevation": 110,
+    "widths": [
+      30,
+      60,
+      90
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "tile-subway-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 2,
+            "label": "Nische"
+          }
+        ]
+      }
+    ]
+  }
+}

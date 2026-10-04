@@ -1,0 +1,120 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kochinsel-weinkuehler",
+  "name": "Kücheninsel mit Weinkühler",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Repräsentative Insel: Weinklimaschrank, Schubladenblöcke und zwei Türen mit Böden.",
+  "size": {
+    "width": 240,
+    "depth": 100,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      220,
+      240
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-black",
+    "front": "lack-black",
+    "countertop": "stone-nero"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 0.6,
+        "elements": [
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 1"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 2"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 3"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 4"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 5"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Kochfeld-Schublade"
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Töpfe"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

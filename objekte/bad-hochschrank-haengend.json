@@ -1,0 +1,48 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.bad-hochschrank-haengend",
+  "name": "Bad-Hochschrank hängend",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Wandhängender Hochschrank grifflos: Tür mit vier Böden, unten Wäscheklappe.",
+  "size": {
+    "width": 40,
+    "depth": 33,
+    "height": 150,
+    "elevation": 25,
+    "widths": [
+      30,
+      40
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-sage"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1.6,
+            "shelves": 4
+          },
+          {
+            "kind": "flap",
+            "size": 0.6,
+            "label": "Wäscheklappe"
+          }
+        ]
+      }
+    ]
+  }
+}

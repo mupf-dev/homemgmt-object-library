@@ -1,0 +1,72 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.schallplattenregal",
+  "name": "Schallplattenregal",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Lowboard für Vinyl: vier Plattenfächer (je ca. 33 cm), oben Platz für den Plattenspieler.",
+  "size": {
+    "width": 150,
+    "depth": 40,
+    "height": 80,
+    "elevation": 0,
+    "widths": [
+      110,
+      150
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 8,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Platten"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Platten"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Platten"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Platten"
+          }
+        ]
+      }
+    ]
+  }
+}

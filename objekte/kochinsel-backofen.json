@@ -1,0 +1,79 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kochinsel-backofen",
+  "name": "Kochinsel mit Backofen",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Insel mit Kochfeld und Backofen darunter, links Auszüge, rechts Tür für Bleche und Backformen.",
+  "size": {
+    "width": 180,
+    "depth": 100,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      160,
+      180,
+      200
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite",
+    "countertop": "stone-concrete"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Töpfe & Pfannen"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Kochlöffel & Zubehör"
+          },
+          {
+            "kind": "open",
+            "size": 2.2,
+            "label": "Backofen"
+          }
+        ]
+      },
+      {
+        "size": 0.6,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 1,
+            "label": "Bleche & Backformen"
+          }
+        ]
+      }
+    ]
+  }
+}

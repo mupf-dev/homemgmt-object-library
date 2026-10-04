@@ -1,0 +1,58 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.montessori-regal",
+  "name": "Montessori-Regal",
+  "group": "Kinderzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Niedriges, offenes Spielregal (2 × 2) – Kinder kommen an alles selbst heran.",
+  "size": {
+    "width": 100,
+    "depth": 30,
+    "height": 60,
+    "elevation": 0,
+    "widths": [
+      60,
+      100
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-ash-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

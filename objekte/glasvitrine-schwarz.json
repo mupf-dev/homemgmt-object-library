@@ -1,0 +1,55 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.glasvitrine-schwarz",
+  "name": "Glasvitrine Metallrahmen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Moderne Vitrine mit schwarzem Metallrahmen und zwei Glastüren, je fünf Glasböden.",
+  "size": {
+    "width": 80,
+    "depth": 40,
+    "height": 190,
+    "elevation": 0,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-black",
+    "front": "metal-black"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 4,
+    "board": 1.5,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 5,
+            "label": "Glastür links"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 5,
+            "label": "Glastür rechts"
+          }
+        ]
+      }
+    ]
+  }
+}

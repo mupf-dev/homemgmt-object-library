@@ -1,0 +1,60 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kaffeebar-hochschrank",
+  "name": "Kaffeebar-Hochschrank",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Hochschrank mit Einschubtüren: Kaffeemaschine und Tassen auf Arbeitshöhe, Vorrat darüber, Schubladen unten.",
+  "size": {
+    "width": 90,
+    "depth": 60,
+    "height": 215,
+    "elevation": 0,
+    "widths": [
+      60,
+      90
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "wood-oak",
+    "countertop": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2,
+            "label": "Vorrat"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 2,
+            "label": "Kaffeebar"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Kapseln & Bohnen"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.6
+          }
+        ]
+      }
+    ]
+  }
+}

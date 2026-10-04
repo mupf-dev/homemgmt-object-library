@@ -1,0 +1,48 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.garderobe-wandpaneel",
+  "name": "Garderoben-Wandpaneel",
+  "group": "Diele",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Wandpaneel mit Haken und kleinem Klappfach oben für Mützen und Handschuhe.",
+  "size": {
+    "width": 80,
+    "depth": 25,
+    "height": 120,
+    "elevation": 90,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-sage",
+    "front": "lack-sage"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 0.4,
+            "label": "Mützen & Handschuhe"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Haken"
+          }
+        ]
+      }
+    ]
+  }
+}

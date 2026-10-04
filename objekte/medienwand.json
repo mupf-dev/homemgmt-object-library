@@ -1,0 +1,84 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.medienwand",
+  "name": "Medienwand TV",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "TV-Wand: hohe Regalseiten, in der Mitte Bildschirmfeld mit Hängeboard und Lowboard darunter.",
+  "size": {
+    "width": 280,
+    "depth": 40,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      240,
+      280,
+      320
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak-smoked",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 0.8,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 2,
+            "shelves": 4
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1.4,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 2.1,
+            "label": "TV-Feld"
+          },
+          {
+            "kind": "flap",
+            "size": 0.45,
+            "label": "Hängeboard"
+          },
+          {
+            "kind": "open",
+            "size": 0.45,
+            "label": "Receiver & Konsole"
+          }
+        ]
+      },
+      {
+        "size": 0.8,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 2,
+            "shelves": 4
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

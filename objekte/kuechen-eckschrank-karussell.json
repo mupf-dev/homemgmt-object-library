@@ -1,0 +1,41 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-eckschrank-karussell",
+  "name": "Küchen-Eckschrank Karussell",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Eck-Unterschrank mit Drehkarussell auf zwei Ebenen.",
+  "size": {
+    "width": 90,
+    "depth": 90,
+    "height": 90,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white",
+    "countertop": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2,
+            "label": "Karussell"
+          }
+        ]
+      }
+    ]
+  }
+}

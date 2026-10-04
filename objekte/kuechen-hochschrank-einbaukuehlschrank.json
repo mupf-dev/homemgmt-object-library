@@ -1,0 +1,65 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-hochschrank-einbaukuehlschrank",
+  "name": "Hochschrank Einbau-Kühlschrank",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Hochschrank mit Einbau-Kühlgerät (Kühlteil, Gemüsefach, Gefrierschubladen) und Aufsatz-Tür oben.",
+  "size": {
+    "width": 60,
+    "depth": 60,
+    "height": 215,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.6,
+            "shelves": 1,
+            "label": "Aufsatz"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Kühlfach oben"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Kühlfach unten"
+          },
+          {
+            "kind": "cold",
+            "size": 0.6,
+            "label": "Gemüsefach"
+          },
+          {
+            "kind": "freezer",
+            "size": 0.7,
+            "label": "Gefrierschublade 1"
+          },
+          {
+            "kind": "freezer",
+            "size": 0.7,
+            "label": "Gefrierschublade 2"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kleiderschrank-glasfront",
+  "name": "Kleiderschrank Glastüren",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schrank mit Rauchglastüren und Innenbeleuchtung – links Kleiderstange, rechts Böden und Schubladen.",
+  "size": {
+    "width": 100,
+    "depth": 58,
+    "height": 236,
+    "elevation": 0,
+    "widths": [
+      100,
+      150
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-black",
+    "front": "metal-black"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 4,
+            "label": "Glastür"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.15
+          },
+          {
+            "kind": "drawer",
+            "size": 0.15
+          }
+        ]
+      }
+    ]
+  }
+}

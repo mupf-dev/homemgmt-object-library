@@ -1,0 +1,56 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-unterschrank-120-auszuege",
+  "name": "Küchen-Unterschrank 120 grifflos",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Breiter Unterschrank mit Griffmulde: Innenschublade für Besteck, zwei extrabreite Topfauszüge.",
+  "size": {
+    "width": 120,
+    "depth": 60,
+    "height": 90,
+    "elevation": 0,
+    "widths": [
+      90,
+      100,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite",
+    "countertop": "stone-nero",
+    "channel": "metal-black"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Besteck (Innenschublade)"
+          },
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Auszug oben"
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Topfauszug"
+          }
+        ]
+      }
+    ]
+  }
+}

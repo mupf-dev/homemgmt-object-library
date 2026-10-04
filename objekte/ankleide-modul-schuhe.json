@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.ankleide-modul-schuhe",
+  "name": "Ankleide-Modul Schuhe",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schmales offenes Ankleide-Modul mit acht Schuhböden.",
+  "size": {
+    "width": 50,
+    "depth": 40,
+    "height": 236,
+    "elevation": 0,
+    "widths": [
+      50,
+      75
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2.5,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 8,
+            "label": "Schuhe"
+          }
+        ]
+      }
+    ]
+  }
+}

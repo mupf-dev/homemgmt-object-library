@@ -1,0 +1,52 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.ankleide-modul-kleiderstange",
+  "name": "Ankleide-Modul Kleiderstange",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Offenes Modul für den begehbaren Kleiderschrank: Hutablage oben, zwei Kleiderstangen übereinander.",
+  "size": {
+    "width": 100,
+    "depth": 50,
+    "height": 236,
+    "elevation": 0,
+    "widths": [
+      75,
+      100
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2.5,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 0.3,
+            "label": "Hutablage"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Kleiderstange oben"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Kleiderstange unten"
+          }
+        ]
+      }
+    ]
+  }
+}

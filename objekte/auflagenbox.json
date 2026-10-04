@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.auflagenbox",
+  "name": "Auflagenbox",
+  "group": "Garten & Garage",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Kissenbox mit Deckel für Polster und Auflagen.",
+  "size": {
+    "width": 130,
+    "depth": 60,
+    "height": 65,
+    "elevation": 0,
+    "widths": [
+      110,
+      130,
+      150
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 2,
+    "board": 2,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1,
+            "label": "Auflagen"
+          }
+        ]
+      }
+    ]
+  }
+}

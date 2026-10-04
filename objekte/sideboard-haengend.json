@@ -1,0 +1,63 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.sideboard-haengend",
+  "name": "Sideboard hängend 3 Türen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schwebendes Sideboard mit grifflosen Türen.",
+  "size": {
+    "width": 180,
+    "depth": 40,
+    "height": 55,
+    "elevation": 35,
+    "widths": [
+      150,
+      180
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kochinsel-theke",
+  "name": "Kochinsel mit Thekenregal",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Große Insel mit Platte als Sitztheke: vorne drei Auszugsblöcke, an der Stirnseite offenes Regal für Kochbücher und Deko.",
+  "size": {
+    "width": 220,
+    "depth": 110,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      200,
+      220,
+      260
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak",
+    "countertop": "stone-marble"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 0.5,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 3,
+            "label": "Kochbücher"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Kochfeld-Schublade"
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Töpfe"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.nachttisch-schwebend-fach",
+  "name": "Nachttisch schwebend mit Fach",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Grifflose Wandkonsole: Schublade links, offenes Fach rechts für Handy und Buch.",
+  "size": {
+    "width": 50,
+    "depth": 30,
+    "height": 25,
+    "elevation": 45,
+    "widths": [
+      40,
+      50,
+      60
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "lack-sage"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1.3,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Ablage"
+          }
+        ]
+      }
+    ]
+  }
+}

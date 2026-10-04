@@ -1,0 +1,47 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.wandsekretaer",
+  "name": "Wandsekretär",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Hängender Mini-Schreibtisch: die Klappe wird zur Arbeitsfläche, dahinter Fächer.",
+  "size": {
+    "width": 80,
+    "depth": 30,
+    "height": 55,
+    "elevation": 90,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1,
+            "label": "Klappe (Arbeitsfläche)"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.25
+          }
+        ]
+      }
+    ]
+  }
+}

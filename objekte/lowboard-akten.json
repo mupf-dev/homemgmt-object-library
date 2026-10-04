@@ -1,0 +1,67 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.lowboard-akten",
+  "name": "Aktensideboard 2 OH",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Sideboard in Ordnerhöhe: zwei Schiebetüren, zwei Fächer dahinter, Mitte Hängeregistratur.",
+  "size": {
+    "width": 160,
+    "depth": 45,
+    "height": 80,
+    "elevation": 0,
+    "widths": [
+      120,
+      160
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 3,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 0.6,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.35
+          },
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Hängeregistratur"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

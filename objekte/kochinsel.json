@@ -1,0 +1,99 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kochinsel",
+  "name": "Kochinsel 180",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Freistehende Insel: drei Auszugsblöcke unter dem Kochfeld, rechts offene Ablage für Kochbücher.",
+  "size": {
+    "width": 180,
+    "depth": 90,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      150,
+      180,
+      240
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-navy",
+    "countertop": "stone-marble"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Kochfeld-Schublade"
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Töpfe"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2
+          }
+        ]
+      },
+      {
+        "size": 0.6,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 2,
+            "label": "Kochbücher"
+          }
+        ]
+      }
+    ]
+  }
+}

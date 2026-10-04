@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.paketbox",
+  "name": "Paketbox",
+  "group": "Diele",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Paketkasten für den Eingang: Briefkasten oben, Paketfach unten.",
+  "size": {
+    "width": 60,
+    "depth": 50,
+    "height": 100,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-black",
+    "front": "metal-black"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 3,
+    "board": 1.5,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 0.3,
+            "label": "Briefkasten"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Paketfach"
+          }
+        ]
+      }
+    ]
+  }
+}

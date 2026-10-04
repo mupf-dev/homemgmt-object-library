@@ -1,0 +1,79 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuehlschrank-french-door",
+  "name": "French-Door-Kühlschrank",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Vier-Türer: oben zwei Kühltüren, darunter Variofach und Gefrierschublade.",
+  "size": {
+    "width": 91,
+    "depth": 72,
+    "height": 182,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-steel",
+    "front": "metal-steel"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 2,
+    "board": 2,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Kühlteil links oben"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Kühlteil links unten"
+          },
+          {
+            "kind": "cold",
+            "size": 0.6,
+            "label": "Variofach"
+          },
+          {
+            "kind": "freezer",
+            "size": 1,
+            "label": "Gefrierschublade"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Kühlteil rechts oben"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Kühlteil rechts unten"
+          },
+          {
+            "kind": "cold",
+            "size": 0.6,
+            "label": "Gemüsefach"
+          },
+          {
+            "kind": "freezer",
+            "size": 1,
+            "label": "Gefrierfach rechts"
+          }
+        ]
+      }
+    ]
+  }
+}

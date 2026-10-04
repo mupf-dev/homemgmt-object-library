@@ -1,0 +1,78 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.cloffice-schrank",
+  "name": "Cloffice (Büro im Schrank)",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Homeoffice hinter Türen: Regale oben, ausklappbare Arbeitsfläche, Druckerfach und Schubladen unten.",
+  "size": {
+    "width": 120,
+    "depth": 60,
+    "height": 210,
+    "elevation": 0,
+    "widths": [
+      100,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1.2,
+            "shelves": 3,
+            "label": "Ordner"
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Arbeitsplatz"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.3
+          }
+        ]
+      },
+      {
+        "size": 0.5,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1.2,
+            "shelves": 3
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 2,
+            "label": "Drucker & Papier"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.6,
+            "label": "Hängeregistratur"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kochinsel-spuele",
+  "name": "Kücheninsel mit Spüle",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Spülinsel: Spülenschrank mit Mülltrennung, Geschirrspüler-Nische und Auszüge für Geschirr.",
+  "size": {
+    "width": 200,
+    "depth": 100,
+    "height": 92,
+    "elevation": 0,
+    "widths": [
+      180,
+      200,
+      240
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-sage",
+    "countertop": "stone-quartz",
+    "sink": "sink-silgranit-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4,
+            "label": "Besteck"
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Geschirr"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Mülltrennung"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Geschirrspüler"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.4
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1.2,
+            "label": "Schüsseln"
+          }
+        ]
+      }
+    ]
+  }
+}

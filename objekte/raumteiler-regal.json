@@ -1,0 +1,116 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.raumteiler-regal",
+  "name": "Raumteiler-Regal",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Beidseitig offenes Regal als Raumteiler mit 4 × 4 Fächern.",
+  "size": {
+    "width": 160,
+    "depth": 35,
+    "height": 180,
+    "elevation": 0,
+    "widths": [
+      120,
+      160
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "metal-black"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

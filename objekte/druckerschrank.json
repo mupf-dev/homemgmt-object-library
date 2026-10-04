@@ -1,0 +1,53 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.druckerschrank",
+  "name": "Druckerschrank",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Rollbarer Beistellschrank: offenes Druckerfach oben, Papier und Toner dahinter.",
+  "size": {
+    "width": 60,
+    "depth": 50,
+    "height": 75,
+    "elevation": 0,
+    "widths": [
+      50,
+      60
+    ]
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 6,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Drucker"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.5,
+            "label": "Papier"
+          },
+          {
+            "kind": "door",
+            "size": 0.8,
+            "label": "Toner & Zubehör"
+          }
+        ]
+      }
+    ]
+  }
+}

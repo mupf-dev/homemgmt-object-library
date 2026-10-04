@@ -1,0 +1,100 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.regal-modular-buero",
+  "name": "Modulregal Büro",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Modulares Büroregal aus 3 × 4 Feldern, teils mit Türen und Schubladen.",
+  "size": {
+    "width": 180,
+    "depth": 40,
+    "height": 180,
+    "elevation": 0,
+    "widths": [
+      120,
+      180
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-navy"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "door",
+            "size": 1
+          },
+          {
+            "kind": "door",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 0.5
+          },
+          {
+            "kind": "drawer",
+            "size": 0.5
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "door",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "door",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

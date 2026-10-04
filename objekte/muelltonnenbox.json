@@ -1,0 +1,63 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.muelltonnenbox",
+  "name": "Mülltonnenbox 3er",
+  "group": "Garten & Garage",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Verkleidung für drei Mülltonnen (Rest, Bio, Papier).",
+  "size": {
+    "width": 210,
+    "depth": 80,
+    "height": 125,
+    "elevation": 0,
+    "widths": [
+      140,
+      210
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-steel",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Restmüll"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Biomüll"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Papier"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.weinkuehlschrank",
+  "name": "Weinkühlschrank",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Unterbau-Weinklimaschrank mit sechs Holzrosten.",
+  "size": {
+    "width": 60,
+    "depth": 57,
+    "height": 88,
+    "elevation": 0,
+    "widths": [
+      30,
+      60
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-black",
+    "front": "metal-black"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 2,
+    "board": 2,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 1"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 2"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 3"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 4"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 5"
+          },
+          {
+            "kind": "cold",
+            "size": 1,
+            "label": "Weinrost 6"
+          }
+        ]
+      }
+    ]
+  }
+}

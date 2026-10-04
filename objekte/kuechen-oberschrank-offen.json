@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-oberschrank-offen",
+  "name": "Küchen-Wandregal offen",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Offene Wandborde statt Oberschrank – zwei Ebenen für Gläser und Gewürze.",
+  "size": {
+    "width": 90,
+    "depth": 30,
+    "height": 60,
+    "elevation": 150,
+    "widths": [
+      60,
+      90,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2.5,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

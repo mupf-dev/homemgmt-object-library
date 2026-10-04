@@ -1,0 +1,61 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.ankleide-modul-schubladen",
+  "name": "Ankleide-Modul Schubladen",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Offenes Ankleide-Modul: Böden für Pullover oben, vier Schubladen unten.",
+  "size": {
+    "width": 75,
+    "depth": 50,
+    "height": 236,
+    "elevation": 0,
+    "widths": [
+      50,
+      75,
+      100
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "lack-cashmere"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2.5,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 2,
+            "shelves": 4,
+            "label": "Pullover"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.3
+          }
+        ]
+      }
+    ]
+  }
+}
