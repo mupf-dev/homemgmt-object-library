@@ -1,0 +1,42 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.getraenkeregal",
+  "name": "Getränkekisten-Regal",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schrägregal für drei Getränkekisten übereinander.",
+  "size": {
+    "width": 70,
+    "depth": 40,
+    "height": 130,
+    "elevation": 0,
+    "widths": [
+      70,
+      110
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-steel"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 3
+          }
+        ]
+      }
+    ]
+  }
+}

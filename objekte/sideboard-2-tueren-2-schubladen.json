@@ -1,0 +1,61 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.sideboard-2-tueren-2-schubladen",
+  "name": "Sideboard 2 Türen 2 Schubladen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Oben zwei Schubladen, darunter zwei Türen mit Boden.",
+  "size": {
+    "width": 140,
+    "depth": 42,
+    "height": 85,
+    "elevation": 0,
+    "widths": [
+      120,
+      140
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.35
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.35
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

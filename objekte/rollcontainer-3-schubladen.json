@@ -1,0 +1,46 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.rollcontainer-3-schubladen",
+  "name": "Rollcontainer 3 Schubladen",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Rollcontainer unter dem Schreibtisch mit drei Schubladen.",
+  "size": {
+    "width": 43,
+    "depth": 56,
+    "height": 60,
+    "elevation": 0
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 6,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.6
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

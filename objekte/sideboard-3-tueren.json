@@ -1,0 +1,64 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.sideboard-3-tueren",
+  "name": "Sideboard 3 Türen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Drei Türen mit je einem Boden.",
+  "size": {
+    "width": 180,
+    "depth": 45,
+    "height": 80,
+    "elevation": 0,
+    "widths": [
+      150,
+      180,
+      210
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

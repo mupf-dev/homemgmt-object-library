@@ -1,0 +1,81 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kleiderschrank-3-tueren",
+  "name": "Kleiderschrank 3 Türen",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Mitte Wäscheböden mit zwei Schubladen, außen je Hutboden und Kleiderstange.",
+  "size": {
+    "width": 150,
+    "depth": 60,
+    "height": 220,
+    "elevation": 0,
+    "widths": [
+      135,
+      150
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 4
+          },
+          {
+            "kind": "drawer",
+            "size": 0.18
+          },
+          {
+            "kind": "drawer",
+            "size": 0.18
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange"
+          }
+        ]
+      }
+    ]
+  }
+}

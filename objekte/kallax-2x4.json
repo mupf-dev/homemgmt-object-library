@@ -1,0 +1,70 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kallax-2x4",
+  "name": "Regal 2×4 (Würfelregal)",
+  "group": "Schränke & Regale",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Würfelregal mit acht Fächern (je 33 × 33 cm), stehend oder liegend.",
+  "size": {
+    "width": 77,
+    "depth": 39,
+    "height": 147,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 3.8,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

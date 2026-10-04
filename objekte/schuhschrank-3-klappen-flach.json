@@ -1,0 +1,51 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.schuhschrank-3-klappen-flach",
+  "name": "Schuhschrank flach 3 Klappen",
+  "group": "Diele",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Besonders flacher Kippklappen-Schuhschrank (17 cm) für schmale Flure.",
+  "size": {
+    "width": 60,
+    "depth": 17,
+    "height": 130,
+    "elevation": 0,
+    "widths": [
+      50,
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1
+          },
+          {
+            "kind": "flap",
+            "size": 1
+          },
+          {
+            "kind": "flap",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.gefriertruhe",
+  "name": "Gefriertruhe",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Gefriertruhe mit zwei Körben oben und zwei Bereichen im Truhenraum.",
+  "size": {
+    "width": 100,
+    "depth": 65,
+    "height": 85,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 2,
+    "board": 3,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "freezer",
+            "size": 0.4,
+            "label": "Korb links"
+          },
+          {
+            "kind": "freezer",
+            "size": 1,
+            "label": "Truhe links"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "freezer",
+            "size": 0.4,
+            "label": "Korb rechts"
+          },
+          {
+            "kind": "freezer",
+            "size": 1,
+            "label": "Truhe rechts"
+          }
+        ]
+      }
+    ]
+  }
+}

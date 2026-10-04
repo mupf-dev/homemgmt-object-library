@@ -1,0 +1,57 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-unterschrank-3-schubladen",
+  "name": "Küchen-Unterschrank 3 Auszüge",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Besteckschublade oben, darunter zwei tiefe Topfauszüge.",
+  "size": {
+    "width": 60,
+    "depth": 60,
+    "height": 90,
+    "elevation": 0,
+    "widths": [
+      40,
+      50,
+      60,
+      80,
+      90
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-sage",
+    "countertop": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.6,
+            "label": "Besteck"
+          },
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Auszug Mitte"
+          },
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Topfauszug"
+          }
+        ]
+      }
+    ]
+  }
+}

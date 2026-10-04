@@ -1,0 +1,52 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-hochschrank-backofen",
+  "name": "Küchen-Hochschrank Backofen",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Geräte-Hochschrank: oben Tür mit Böden, Mitte Backofen-Nische, unten zwei Auszüge.",
+  "size": {
+    "width": 60,
+    "depth": 60,
+    "height": 215,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          },
+          {
+            "kind": "open",
+            "size": 1.1,
+            "label": "Backofen"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.5
+          },
+          {
+            "kind": "drawer",
+            "size": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

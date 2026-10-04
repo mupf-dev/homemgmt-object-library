@@ -1,0 +1,83 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.spielzeugregal-3x3",
+  "name": "Spielzeugregal 3×3",
+  "group": "Kinderzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Niedriges Regal mit neun Fächern für Kisten – kindgerechte Höhe.",
+  "size": {
+    "width": 110,
+    "depth": 35,
+    "height": 100,
+    "elevation": 0,
+    "widths": [
+      80,
+      110
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-ash-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

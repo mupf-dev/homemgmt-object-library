@@ -1,0 +1,59 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.doppelwaschtisch-unterschrank",
+  "name": "Doppelwaschtisch-Unterschrank",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Unterschrank für zwei Becken mit je zwei Auszügen.",
+  "size": {
+    "width": 120,
+    "depth": 46,
+    "height": 55,
+    "elevation": 30,
+    "widths": [
+      120,
+      140
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

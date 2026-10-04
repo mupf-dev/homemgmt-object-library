@@ -1,0 +1,61 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kinderkleiderschrank",
+  "name": "Kinderkleiderschrank",
+  "group": "Kinderzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Halbhoher Kleiderschrank: Kleiderstange links, Böden rechts, zwei Schubladen unten.",
+  "size": {
+    "width": 90,
+    "depth": 52,
+    "height": 180,
+    "elevation": 0,
+    "widths": [
+      80,
+      90
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-magnolia"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 4
+          },
+          {
+            "kind": "drawer",
+            "size": 0.2
+          }
+        ]
+      }
+    ]
+  }
+}

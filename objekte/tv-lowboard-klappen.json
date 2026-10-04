@@ -1,0 +1,72 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.tv-lowboard-klappen",
+  "name": "TV-Lowboard 2 Klappen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Außen offene Fächer für Geräte, in der Mitte zwei Klappen für Spiele und Kabel.",
+  "size": {
+    "width": 180,
+    "depth": 40,
+    "height": 45,
+    "elevation": 0,
+    "widths": [
+      150,
+      180,
+      210
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 0.8,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Geräte links"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 0.8,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Geräte rechts"
+          }
+        ]
+      }
+    ]
+  }
+}

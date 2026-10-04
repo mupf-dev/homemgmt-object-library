@@ -1,0 +1,58 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kommode-5-schubladen",
+  "name": "Kommode hoch 5 Schubladen",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Hohe Kommode (Chest) mit fünf Schubladen, oben flacher für Kleinkram.",
+  "size": {
+    "width": 80,
+    "depth": 48,
+    "height": 120,
+    "elevation": 0,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 8,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.7
+          },
+          {
+            "kind": "drawer",
+            "size": 0.7
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

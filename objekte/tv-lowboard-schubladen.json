@@ -1,0 +1,57 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.tv-lowboard-schubladen",
+  "name": "TV-Lowboard 2 Schubladen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Offene Ablage oben über die ganze Breite, darunter zwei breite Schubladen.",
+  "size": {
+    "width": 160,
+    "depth": 42,
+    "height": 50,
+    "elevation": 0,
+    "widths": [
+      140,
+      160
+    ]
+  },
+  "snapToWall": true,
+  "build": {
+    "type": "korpus",
+    "plinth": 8,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 0.8,
+            "label": "Ablage links"
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 0.8,
+            "label": "Ablage rechts"
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

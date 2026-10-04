@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.buecherregal-80",
+  "name": "Bücherregal 80",
+  "group": "Schränke & Regale",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Klassisches Bücherregal mit sechs Böden.",
+  "size": {
+    "width": 80,
+    "depth": 28,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      40,
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 6,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 6
+          }
+        ]
+      }
+    ]
+  }
+}

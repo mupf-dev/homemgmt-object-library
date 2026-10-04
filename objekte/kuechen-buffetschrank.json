@@ -1,0 +1,83 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-buffetschrank",
+  "name": "Küchenbuffet",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Freistehendes Buffet: Aufsatz mit Glastüren, offene Ablage, unten Schubladen und Türen.",
+  "size": {
+    "width": 110,
+    "depth": 45,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      90,
+      110
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-sage",
+    "front": "lack-sage"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 8,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1.6,
+            "shelves": 3,
+            "label": "Aufsatz links"
+          },
+          {
+            "kind": "open",
+            "size": 0.5,
+            "label": "Ablage links"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.25
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1.6,
+            "shelves": 3,
+            "label": "Aufsatz rechts"
+          },
+          {
+            "kind": "open",
+            "size": 0.5,
+            "label": "Ablage rechts"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.25
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

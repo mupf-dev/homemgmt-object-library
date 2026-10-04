@@ -1,0 +1,71 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.sideboard-schubladen-mitte",
+  "name": "Sideboard Türen + Schubladen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Außen je eine Tür mit Boden, in der Mitte drei Schubladen (Besteck, Servietten, Kerzen).",
+  "size": {
+    "width": 160,
+    "depth": 45,
+    "height": 80,
+    "elevation": 0,
+    "widths": [
+      140,
+      160,
+      180
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "wood-walnut"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

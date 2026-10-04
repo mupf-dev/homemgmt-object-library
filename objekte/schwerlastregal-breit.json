@@ -1,0 +1,53 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.schwerlastregal-breit",
+  "name": "Schwerlastregal breit 2 Felder",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Breites Metallregal aus zwei Feldern à fünf Böden.",
+  "size": {
+    "width": 180,
+    "depth": 50,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      150,
+      180,
+      240
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-steel"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 5
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 5
+          }
+        ]
+      }
+    ]
+  }
+}

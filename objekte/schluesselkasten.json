@@ -1,0 +1,35 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.schluesselkasten",
+  "name": "Schlüsselkasten",
+  "group": "Diele",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Kleiner Wandkasten für Schlüssel mit einer Tür.",
+  "size": {
+    "width": 30,
+    "depth": 8,
+    "height": 40,
+    "elevation": 140
+  },
+  "snapToWall": true,
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Schlüssel"
+          }
+        ]
+      }
+    ]
+  }
+}

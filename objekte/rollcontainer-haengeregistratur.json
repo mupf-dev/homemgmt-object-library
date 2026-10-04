@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.rollcontainer-haengeregistratur",
+  "name": "Rollcontainer Hängeregistratur",
+  "group": "Arbeitszimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Utensilienschublade oben, darunter ein Auszug mit Hängemappen.",
+  "size": {
+    "width": 43,
+    "depth": 56,
+    "height": 60,
+    "elevation": 0
+  },
+  "snapToWall": false,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 6,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.5,
+            "label": "Utensilien"
+          },
+          {
+            "kind": "drawer",
+            "size": 1.5,
+            "label": "Hängeregistratur"
+          }
+        ]
+      }
+    ]
+  }
+}

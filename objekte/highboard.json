@@ -1,0 +1,61 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.highboard",
+  "name": "Highboard 2 Türen",
+  "group": "Wohnzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Hohes Sideboard: zwei Türen mit je drei Böden, unten zwei Schubladen.",
+  "size": {
+    "width": 120,
+    "depth": 45,
+    "height": 135,
+    "elevation": 0,
+    "widths": [
+      100,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak-smoked",
+    "front": "wood-oak-smoked"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.25
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.25
+          }
+        ]
+      }
+    ]
+  }
+}

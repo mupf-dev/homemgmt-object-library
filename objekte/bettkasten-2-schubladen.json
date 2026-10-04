@@ -1,0 +1,51 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.bettkasten-2-schubladen",
+  "name": "Bettschubkasten 2er-Set",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Zwei Schubkästen unter dem Bett, z. B. für Bettwäsche oder Saisonkleidung.",
+  "size": {
+    "width": 160,
+    "depth": 65,
+    "height": 20,
+    "elevation": 0,
+    "widths": [
+      120,
+      140,
+      160,
+      180
+    ]
+  },
+  "snapToWall": false,
+  "build": {
+    "type": "korpus",
+    "plinth": 2,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Schubkasten links"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Schubkasten rechts"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kleiderschrank-schmal",
+  "name": "Kleiderschrank schmal 50",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Eintüriger Schrank mit Hutboden und Kleiderstange – z. B. für Gästezimmer oder Nischen.",
+  "size": {
+    "width": 50,
+    "depth": 58,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      40,
+      50
+    ]
+  },
+  "snapToWall": true,
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange"
+          }
+        ]
+      }
+    ]
+  }
+}

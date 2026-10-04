@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.schwerlastregal-5-boeden",
+  "name": "Schwerlastregal 5 Böden",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Steckregal aus Metall mit fünf Böden für Vorräte, Kisten und Getränke.",
+  "size": {
+    "width": 90,
+    "depth": 45,
+    "height": 180,
+    "elevation": 0,
+    "widths": [
+      75,
+      90,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-steel"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 5
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-oberschrank-80-2-tueren",
+  "name": "Küchen-Oberschrank 80 2 Türen",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Breiter Hängeschrank mit zwei Türen und je drei Ebenen.",
+  "size": {
+    "width": 80,
+    "depth": 35,
+    "height": 72,
+    "elevation": 145,
+    "widths": [
+      80,
+      90,
+      100
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3
+          }
+        ]
+      }
+    ]
+  }
+}

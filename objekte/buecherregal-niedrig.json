@@ -1,0 +1,42 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.buecherregal-niedrig",
+  "name": "Bücherregal niedrig",
+  "group": "Schränke & Regale",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Halbhohes Regal mit drei Böden, z. B. unter dem Fenster.",
+  "size": {
+    "width": 80,
+    "depth": 28,
+    "height": 106,
+    "elevation": 0,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 6,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 3
+          }
+        ]
+      }
+    ]
+  }
+}

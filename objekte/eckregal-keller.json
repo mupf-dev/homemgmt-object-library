@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.eckregal-keller",
+  "name": "Kellerregal schmal 4 Böden",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schmales Metallregal für Nischen, vier Böden.",
+  "size": {
+    "width": 40,
+    "depth": 30,
+    "height": 160,
+    "elevation": 0,
+    "widths": [
+      30,
+      40,
+      60
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "metal-alu"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 2,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 4
+          }
+        ]
+      }
+    ]
+  }
+}

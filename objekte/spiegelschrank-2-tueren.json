@@ -1,0 +1,49 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.spiegelschrank-2-tueren",
+  "name": "Spiegelschrank 2 Türen",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Spiegelschrank über dem Waschbecken, zwei Türen mit je drei Ablagen.",
+  "size": {
+    "width": 60,
+    "depth": 15,
+    "height": 70,
+    "elevation": 120,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3
+          }
+        ]
+      }
+    ]
+  }
+}

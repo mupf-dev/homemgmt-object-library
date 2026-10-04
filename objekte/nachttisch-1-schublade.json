@@ -1,0 +1,48 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.nachttisch-1-schublade",
+  "name": "Nachttisch 1 Schublade",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schublade oben, offenes Fach darunter.",
+  "size": {
+    "width": 45,
+    "depth": 38,
+    "height": 55,
+    "elevation": 0,
+    "widths": [
+      40,
+      45,
+      50
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.8
+          },
+          {
+            "kind": "open",
+            "size": 1,
+            "label": "Ablage"
+          }
+        ]
+      }
+    ]
+  }
+}

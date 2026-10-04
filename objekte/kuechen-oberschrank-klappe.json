@@ -1,0 +1,44 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-oberschrank-klappe",
+  "name": "Küchen-Oberschrank Klappe",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Flacher Hängeschrank mit Liftklappe, z. B. über der Dunstabzugshaube.",
+  "size": {
+    "width": 90,
+    "depth": 35,
+    "height": 40,
+    "elevation": 177,
+    "widths": [
+      60,
+      80,
+      90
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "flap",
+            "size": 1,
+            "label": "Liftklappe"
+          }
+        ]
+      }
+    ]
+  }
+}

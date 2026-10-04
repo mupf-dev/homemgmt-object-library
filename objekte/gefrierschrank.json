@@ -1,0 +1,62 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.gefrierschrank",
+  "name": "Gefrierschrank 7 Schubladen",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Standgefrierschrank mit sieben Schubladen – jede ein eigener Lagerplatz.",
+  "size": {
+    "width": 60,
+    "depth": 65,
+    "height": 186,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 2,
+    "board": 2,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "freezer",
+            "size": 1
+          },
+          {
+            "kind": "freezer",
+            "size": 1
+          },
+          {
+            "kind": "freezer",
+            "size": 1
+          },
+          {
+            "kind": "freezer",
+            "size": 1
+          },
+          {
+            "kind": "freezer",
+            "size": 1
+          },
+          {
+            "kind": "freezer",
+            "size": 1
+          },
+          {
+            "kind": "freezer",
+            "size": 0.8
+          }
+        ]
+      }
+    ]
+  }
+}

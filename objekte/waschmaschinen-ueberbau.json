@@ -1,0 +1,49 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.waschmaschinen-ueberbau",
+  "name": "Waschmaschinen-Überbauschrank",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schrank über Waschmaschine oder Trockner: oben zwei Böden hinter einer Tür, unten Gerätenische.",
+  "size": {
+    "width": 70,
+    "depth": 65,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      65,
+      70
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2,
+            "label": "Waschmittel"
+          },
+          {
+            "kind": "open",
+            "size": 1.2,
+            "label": "Gerätenische"
+          }
+        ]
+      }
+    ]
+  }
+}

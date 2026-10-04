@@ -1,0 +1,64 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.waeschesortierer",
+  "name": "Wäscheschrank Hauswirtschaft",
+  "group": "Keller & Hauswirtschaft",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Drei Wäschesammler-Auszüge (hell, dunkel, bunt) unter einer Arbeitsfläche zum Falten.",
+  "size": {
+    "width": 120,
+    "depth": 50,
+    "height": 90,
+    "elevation": 0,
+    "widths": [
+      90,
+      120
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white",
+    "countertop": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Wäsche hell"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Wäsche dunkel"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 1,
+            "label": "Wäsche bunt"
+          }
+        ]
+      }
+    ]
+  }
+}

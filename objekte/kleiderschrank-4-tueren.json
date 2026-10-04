@@ -1,0 +1,96 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kleiderschrank-4-tueren",
+  "name": "Kleiderschrank 4 Türen",
+  "group": "Schlafzimmer",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Großer Schrank: zwei Kleiderstangen, eine Kurzhängerstange mit Schubladen und ein Fach mit sechs Böden.",
+  "size": {
+    "width": 200,
+    "depth": 60,
+    "height": 236,
+    "elevation": 0,
+    "widths": [
+      180,
+      200
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-cashmere"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange lang"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 6
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 0.7,
+            "label": "Kurzhänger"
+          },
+          {
+            "kind": "drawer",
+            "size": 0.15
+          },
+          {
+            "kind": "drawer",
+            "size": 0.15
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 0.18,
+            "label": "Hutboden"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Kleiderstange lang"
+          }
+        ]
+      }
+    ]
+  }
+}

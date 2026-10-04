@@ -1,0 +1,53 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.bad-hochschrank",
+  "name": "Bad-Hochschrank",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Schmaler Hochschrank: oben Tür mit drei Böden, Schublade, unten Wäschefach.",
+  "size": {
+    "width": 35,
+    "depth": 35,
+    "height": 170,
+    "elevation": 0,
+    "widths": [
+      30,
+      35,
+      40
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 5,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1.4,
+            "shelves": 3
+          },
+          {
+            "kind": "drawer",
+            "size": 0.25
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Wäschefach"
+          }
+        ]
+      }
+    ]
+  }
+}

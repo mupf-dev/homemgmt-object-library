@@ -1,0 +1,51 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-hochschrank-vorrat",
+  "name": "Küchen-Hochschrank Vorrat",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Hochschrank mit zwei Türen: oben vier, unten drei Vorratsebenen.",
+  "size": {
+    "width": 60,
+    "depth": 60,
+    "height": 215,
+    "elevation": 0,
+    "widths": [
+      40,
+      50,
+      60
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1.2,
+            "shelves": 4,
+            "label": "Vorrat oben"
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 3,
+            "label": "Vorrat unten"
+          }
+        ]
+      }
+    ]
+  }
+}

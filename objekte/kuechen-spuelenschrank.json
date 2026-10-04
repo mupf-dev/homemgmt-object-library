@@ -1,0 +1,57 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kuechen-spuelenschrank",
+  "name": "Spülenunterschrank 2 Türen",
+  "group": "Küche",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Unterschrank für die Spüle – zwei Türen, darunter Mülltrennung und Putzmittel.",
+  "size": {
+    "width": 80,
+    "depth": 60,
+    "height": 90,
+    "elevation": 0,
+    "widths": [
+      60,
+      80,
+      90,
+      100
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white",
+    "front": "lack-white",
+    "countertop": "stone-quartz",
+    "sink": "sink-silgranit-anthracite"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Mülltrennung"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "door",
+            "size": 1,
+            "label": "Putzmittel"
+          }
+        ]
+      }
+    ]
+  }
+}

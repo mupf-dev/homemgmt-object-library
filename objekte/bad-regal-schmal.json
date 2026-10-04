@@ -1,0 +1,43 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.bad-regal-schmal",
+  "name": "Bad-Regal schmal",
+  "group": "Bad",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Offenes Standregal mit vier Ebenen für Handtücher und Pflegeprodukte.",
+  "size": {
+    "width": 30,
+    "depth": 30,
+    "height": 150,
+    "elevation": 0,
+    "widths": [
+      25,
+      30,
+      40
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 4,
+    "board": 1.6,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 4
+          }
+        ]
+      }
+    ]
+  }
+}

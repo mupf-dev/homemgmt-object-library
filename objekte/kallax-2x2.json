@@ -1,0 +1,54 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.kallax-2x2",
+  "name": "Regal 2×2 (Würfelregal)",
+  "group": "Schränke & Regale",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Würfelregal mit vier Fächern (je 33 × 33 cm), auch als Beistellmöbel.",
+  "size": {
+    "width": 77,
+    "depth": 39,
+    "height": 77,
+    "elevation": 0
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-white"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 0,
+    "board": 3.8,
+    "back": false,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1
+          },
+          {
+            "kind": "open",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}

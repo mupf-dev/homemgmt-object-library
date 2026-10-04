@@ -1,0 +1,48 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.buecherregal-mit-tueren",
+  "name": "Bücherregal mit Türen unten",
+  "group": "Schränke & Regale",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Oben vier offene Böden, unten zwei geschlossene Fächer hinter einer Tür.",
+  "size": {
+    "width": 80,
+    "depth": 30,
+    "height": 200,
+    "elevation": 0,
+    "widths": [
+      60,
+      80
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "wood-oak",
+    "front": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 6,
+    "board": 1.8,
+    "back": true,
+    "columns": [
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 2,
+            "shelves": 4
+          },
+          {
+            "kind": "door",
+            "size": 1,
+            "shelves": 2
+          }
+        ]
+      }
+    ]
+  }
+}

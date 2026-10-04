@@ -1,0 +1,67 @@
+{
+  "format": "zuhause-objekt/1",
+  "id": "community.werkbank-schubladen",
+  "name": "Werkbank mit Schubladen",
+  "group": "Werkstatt",
+  "version": "1.0",
+  "author": "Zuhause",
+  "license": "CC0-1.0",
+  "description": "Werkbank: rechts Schubladenblock, links offenes Fach mit Boden.",
+  "size": {
+    "width": 150,
+    "depth": 70,
+    "height": 90,
+    "elevation": 0,
+    "widths": [
+      120,
+      150,
+      200
+    ]
+  },
+  "snapToWall": true,
+  "materials": {
+    "carcass": "lack-anthracite",
+    "front": "lack-terracotta",
+    "countertop": "wood-oak"
+  },
+  "build": {
+    "type": "korpus",
+    "plinth": 10,
+    "board": 2,
+    "back": true,
+    "columns": [
+      {
+        "size": 1.6,
+        "elements": [
+          {
+            "kind": "open",
+            "size": 1,
+            "shelves": 2,
+            "label": "Fach unter der Platte"
+          }
+        ]
+      },
+      {
+        "size": 1,
+        "elements": [
+          {
+            "kind": "drawer",
+            "size": 0.6
+          },
+          {
+            "kind": "drawer",
+            "size": 0.6
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          },
+          {
+            "kind": "drawer",
+            "size": 1
+          }
+        ]
+      }
+    ]
+  }
+}
