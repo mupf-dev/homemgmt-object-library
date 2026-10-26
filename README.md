@@ -30,8 +30,8 @@ npm run build   # check and generate _site/ (open index.html in the browser)
 ```
 
 **New version** of a furniture type: increase `version` (e.g. `1.0` → `1.1`). Installations then show
-"Update"; furniture already placed keeps its compartments until someone deliberately switches it to the new version in
-the house plan. Avoid reordering the compartments of a published furniture type – they are location codes.
+"Update to …"; furniture already placed keeps its compartments until someone deliberately switches it to the new version in
+the house plan ("Apply version …"). Avoid reordering the compartments of a published furniture type – they are location codes.
 
 **3D models** (`"build": { "type": "modell" }`): put the `.glb` into `modelle/` and reference it in the furniture type as
 `"model": { "file": "modelle/<name>.glb" }` (at most 50 MB, preferably under 5 MB). Only models you hold the rights to
