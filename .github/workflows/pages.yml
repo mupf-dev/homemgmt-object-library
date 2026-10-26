@@ -1,5 +1,5 @@
-# Pull Requests: alle Möbelarten prüfen. main: Katalog bauen und auf GitHub Pages veröffentlichen.
-name: Katalog
+# Pull requests: check all furniture types. main: build the catalog and publish it to GitHub Pages.
+name: Catalog
 
 on:
   pull_request:
