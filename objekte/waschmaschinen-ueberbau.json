@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schrank über Waschmaschine oder Trockner: oben zwei Böden hinter einer Tür, unten Gerätenische.",
+  "en": {
+    "name": "Over-washer cabinet",
+    "description": "Cabinet above a washing machine or tumble dryer: two shelves behind a door at the top, appliance space below."
+  },
   "size": {
     "width": 70,
     "depth": 65,

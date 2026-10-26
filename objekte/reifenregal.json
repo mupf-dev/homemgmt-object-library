@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandregal für zwei Reifensätze übereinander.",
+  "en": {
+    "name": "Tyre rack",
+    "description": "Wall rack for two sets of tyres stacked on top of each other."
+  },
   "size": {
     "width": 110,
     "depth": 40,

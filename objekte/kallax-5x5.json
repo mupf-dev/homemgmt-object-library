@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Großes Würfelregal mit 25 Fächern (je 33 × 33 cm).",
+  "en": {
+    "name": "Shelf unit 5×5 (cube unit)",
+    "description": "Large cube shelf unit with 25 compartments (33 × 33 cm each)."
+  },
   "size": {
     "width": 182,
     "depth": 39,

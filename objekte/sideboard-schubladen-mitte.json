@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Außen je eine Tür mit Boden, in der Mitte drei Schubladen (Besteck, Servietten, Kerzen).",
+  "en": {
+    "name": "Sideboard, doors + drawers",
+    "description": "A door with a shelf on each outer side, three drawers in the middle (cutlery, napkins, candles)."
+  },
   "size": {
     "width": 160,
     "depth": 45,

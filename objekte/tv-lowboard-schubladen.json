@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offene Ablage oben über die ganze Breite, darunter zwei breite Schubladen.",
+  "en": {
+    "name": "TV low sideboard, 2 drawers",
+    "description": "Open shelf across the full width at the top, two wide drawers below."
+  },
   "size": {
     "width": 160,
     "depth": 42,

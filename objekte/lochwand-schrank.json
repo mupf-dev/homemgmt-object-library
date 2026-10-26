@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängender Werkzeugschrank: Lochwand innen und in den Türen, unten Kleinteilefach.",
+  "en": {
+    "name": "Tool cabinet with pegboard",
+    "description": "Wall-hung tool cabinet: pegboard inside and in the doors, small parts compartment at the bottom."
+  },
   "size": {
     "width": 100,
     "depth": 20,

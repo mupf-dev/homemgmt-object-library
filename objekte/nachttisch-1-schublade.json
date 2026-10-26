@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schublade oben, offenes Fach darunter.",
+  "en": {
+    "name": "Bedside table, 1 drawer",
+    "description": "Drawer at the top, open compartment below."
+  },
   "size": {
     "width": 45,
     "depth": 38,

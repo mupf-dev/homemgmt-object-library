@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Halbhoher Aktenschrank mit zwei Türen und drei Ordnerhöhen – Oberseite als Ablage.",
+  "en": {
+    "name": "Filing cabinet, 3 file heights",
+    "description": "Half-height filing cabinet with two doors and three file heights – top serves as a surface."
+  },
   "size": {
     "width": 80,
     "depth": 42,

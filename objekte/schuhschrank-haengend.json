@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schwebender, griffloser Schuhschrank – Platz zum Wischen darunter, oben Ablage für Schlüssel.",
+  "en": {
+    "name": "Wall-hung shoe cabinet",
+    "description": "Floating, handleless shoe cabinet – room for mopping underneath, surface on top for keys."
+  },
   "size": {
     "width": 120,
     "depth": 30,

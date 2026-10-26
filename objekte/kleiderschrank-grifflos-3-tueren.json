@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Deckenhoher Schrank mit Push-to-open-Fronten: Kleiderstange, Innenschubladen und Böden.",
+  "en": {
+    "name": "Handleless wardrobe, 3 doors",
+    "description": "Floor-to-ceiling wardrobe with push-to-open fronts: hanging rail, interior drawers and shelves."
+  },
   "size": {
     "width": 150,
     "depth": 60,

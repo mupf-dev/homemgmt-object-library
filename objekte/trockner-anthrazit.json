@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter – in Anthrazit (Graphit).",
+  "en": {
+    "name": "Heat pump tumble dryer, anthracite",
+    "description": "Freestanding tumble dryer: condensate container at the top, drum below – in anthracite (graphite)."
+  },
   "size": {
     "width": 60,
     "depth": 65,

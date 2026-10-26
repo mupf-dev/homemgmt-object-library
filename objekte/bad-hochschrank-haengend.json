@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandhängender Hochschrank grifflos: Tür mit vier Böden, unten Wäscheklappe.",
+  "en": {
+    "name": "Wall-hung bathroom tall cabinet",
+    "description": "Wall-hung handleless tall cabinet: door with four shelves, laundry flap at the bottom."
+  },
   "size": {
     "width": 40,
     "depth": 33,

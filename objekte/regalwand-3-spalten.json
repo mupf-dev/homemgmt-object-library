@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Große Regalwand: außen offene Böden, Mitte mit Türen unten.",
+  "en": {
+    "name": "Shelving wall, 3 columns",
+    "description": "Large shelving wall: open shelves at the sides, doors at the bottom in the middle."
+  },
   "size": {
     "width": 240,
     "depth": 35,

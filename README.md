@@ -48,7 +48,7 @@ show them translated), so contributions end up next to the matching furniture ty
 | `Wohnzimmer` | Living room |
 | `Bad` | Bathroom |
 | `Schränke & Regale` | Cabinets & shelf units |
-| `Diele` | Hallway |
+| `Diele` | Entrance hall |
 | `Arbeitszimmer` | Study |
 | `Werkstatt` | Workshop |
 | `Kinderzimmer` | Children's room |
@@ -56,16 +56,20 @@ show them translated), so contributions end up next to the matching furniture ty
 
 ## Format `zuhause-objekt/1`
 
+`name` and `description` are German; the optional `en` block holds the English versions. homemgmt-ng shows them when
+the app is set to English (also in location names), the gallery uses them too. Please fill in both if you can.
+
 ```json
 {
   "format": "zuhause-objekt/1",
   "id": "community.schuhschrank-klappen",
-  "name": "Shoe cabinet with 2 flaps",
+  "name": "Schuhschrank mit 2 Klappen",
   "group": "Diele",
   "version": "1.0",
   "author": "…",
   "license": "CC0-1.0",
   "description": "…",
+  "en": { "name": "Shoe cabinet with 2 flaps", "description": "…" },
   "size": { "width": 80, "depth": 24, "height": 100, "elevation": 0, "widths": [50, 80] },
   "snapToWall": true,
   "materials": { "carcass": "lack-white", "front": "lack-white" },

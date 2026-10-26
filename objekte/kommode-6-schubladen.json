@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Breite Kommode mit zwei Reihen à drei Schubladen.",
+  "en": {
+    "name": "Wide chest of drawers, 2×3 drawers",
+    "description": "Wide chest of drawers with two rows of three drawers."
+  },
   "size": {
     "width": 160,
     "depth": 48,

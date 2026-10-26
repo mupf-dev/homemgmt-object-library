@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Utensilienschublade oben, darunter ein Auszug mit Hängemappen.",
+  "en": {
+    "name": "Rolling unit with suspension files",
+    "description": "Stationery drawer at the top, with a pull-out for suspension files below."
+  },
   "size": {
     "width": 43,
     "depth": 56,

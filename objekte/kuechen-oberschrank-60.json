@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängeschrank mit einer Tür und zwei Böden (drei Ebenen).",
+  "en": {
+    "name": "Kitchen wall cabinet 60",
+    "description": "Wall cabinet with one door and two shelves (three levels)."
+  },
   "size": {
     "width": 60,
     "depth": 35,

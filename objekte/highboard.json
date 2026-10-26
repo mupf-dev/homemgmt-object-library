@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hohes Sideboard: zwei Türen mit je drei Böden, unten zwei Schubladen.",
+  "en": {
+    "name": "Highboard, 2 doors",
+    "description": "Tall sideboard: two doors with three shelves each, two drawers below."
+  },
   "size": {
     "width": 120,
     "depth": 45,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Flaches Regal mit vier Leisten – Bücher stehen mit dem Cover nach vorn.",
+  "en": {
+    "name": "Front-facing bookcase (children)",
+    "description": "Shallow shelf unit with four ledges – books stand with the cover facing forward."
+  },
   "size": {
     "width": 80,
     "depth": 15,

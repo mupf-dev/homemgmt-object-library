@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Moderne Vitrine mit schwarzem Metallrahmen und zwei Glastüren, je fünf Glasböden.",
+  "en": {
+    "name": "Glass display cabinet, metal frame",
+    "description": "Modern display cabinet with black metal frame and two glass doors, five glass shelves each."
+  },
   "size": {
     "width": 80,
     "depth": 40,

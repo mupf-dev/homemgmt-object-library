@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offenes Schuhregal mit vier Ebenen.",
+  "en": {
+    "name": "Open shoe rack, 4 levels",
+    "description": "Open shoe rack with four levels."
+  },
   "size": {
     "width": 80,
     "depth": 30,

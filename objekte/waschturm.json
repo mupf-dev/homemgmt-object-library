@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schrank für Waschmaschine und Trockner übereinander, oben ein Fach für Waschmittel, seitlich Wäschekorb-Auszug.",
+  "en": {
+    "name": "Laundry tower",
+    "description": "Cabinet for washing machine and tumble dryer stacked on top of each other, a compartment for detergent at the top, laundry basket pull-out at the side."
+  },
   "size": {
     "width": 70,
     "depth": 65,

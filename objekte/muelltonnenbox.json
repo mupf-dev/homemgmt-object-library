@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Verkleidung für drei Mülltonnen (Rest, Bio, Papier).",
+  "en": {
+    "name": "Bin store for 3 bins",
+    "description": "Enclosure for three wheelie bins (general waste, organic, paper)."
+  },
   "size": {
     "width": 210,
     "depth": 80,

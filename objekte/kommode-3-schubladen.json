@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Klassische Kommode mit drei gleich hohen Schubladen.",
+  "en": {
+    "name": "Chest of drawers, 3 drawers",
+    "description": "Classic chest of drawers with three drawers of equal height."
+  },
   "size": {
     "width": 80,
     "depth": 45,

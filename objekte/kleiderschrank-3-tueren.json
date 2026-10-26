@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Mitte Wäscheböden mit zwei Schubladen, außen je Hutboden und Kleiderstange.",
+  "en": {
+    "name": "Wardrobe, 3 doors",
+    "description": "Linen shelves with two drawers in the middle, hat shelf and hanging rail on each outer side."
+  },
   "size": {
     "width": 150,
     "depth": 60,

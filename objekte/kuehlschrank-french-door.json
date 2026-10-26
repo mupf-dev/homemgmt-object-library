@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Vier-Türer: oben zwei Kühltüren, darunter Variofach und Gefrierschublade.",
+  "en": {
+    "name": "French door fridge",
+    "description": "Four-door model: two fridge doors at the top, flexible compartment and freezer drawer below."
+  },
   "size": {
     "width": 91,
     "depth": 72,

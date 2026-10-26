@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Würfelregal mit vier Fächern (je 33 × 33 cm), auch als Beistellmöbel.",
+  "en": {
+    "name": "Shelf unit 2×2 (cube unit)",
+    "description": "Cube shelf unit with four compartments (33 × 33 cm each), also usable as an occasional piece."
+  },
   "size": {
     "width": 77,
     "depth": 39,

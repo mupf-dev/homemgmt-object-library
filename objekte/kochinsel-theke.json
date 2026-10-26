@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Große Insel mit Platte als Sitztheke: vorne drei Auszugsblöcke, an der Stirnseite offenes Regal für Kochbücher und Deko.",
+  "en": {
+    "name": "Kitchen island with breakfast bar shelf",
+    "description": "Large island with worktop as a seating bar: three pull-out blocks at the front, open shelf unit at the end for cookbooks and decorations."
+  },
   "size": {
     "width": 220,
     "depth": 110,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Großer Schrank: zwei Kleiderstangen, eine Kurzhängerstange mit Schubladen und ein Fach mit sechs Böden.",
+  "en": {
+    "name": "Wardrobe, 4 doors",
+    "description": "Large wardrobe: two hanging rails, a short-hanging rail with drawers and a compartment with six shelves."
+  },
   "size": {
     "width": 200,
     "depth": 60,

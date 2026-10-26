@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Links Jacken an der Kleiderstange, rechts Böden für Mützen, Schals und Taschen.",
+  "en": {
+    "name": "Hallway wardrobe, 2 doors",
+    "description": "Jackets on the hanging rail on the left, shelves for hats, scarves and bags on the right."
+  },
   "size": {
     "width": 90,
     "depth": 40,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmaler Toplader (40 cm) für enge Bäder und Nischen – befüllt wird von oben.",
+  "en": {
+    "name": "Washing machine, top loader",
+    "description": "Slim top loader (40 cm) for narrow bathrooms and alcoves – loaded from the top."
+  },
   "size": {
     "width": 40,
     "depth": 60,

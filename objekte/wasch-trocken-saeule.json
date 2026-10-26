@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Trockner auf der Waschmaschine mit Zwischenbaurahmen und ausziehbarer Ablage für den Wäschekorb.",
+  "en": {
+    "name": "Washer-dryer tower",
+    "description": "Tumble dryer on top of the washing machine with stacking frame and pull-out shelf for the laundry basket."
+  },
   "size": {
     "width": 60,
     "depth": 65,

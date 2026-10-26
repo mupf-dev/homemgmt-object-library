@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Frontlader auf einem 40 cm hohen Podest mit Schublade – rückenschonend beladen.",
+  "en": {
+    "name": "Washing machine on plinth",
+    "description": "Front loader on a 40 cm high plinth with drawer – easy on the back when loading."
+  },
   "size": {
     "width": 60,
     "depth": 60,

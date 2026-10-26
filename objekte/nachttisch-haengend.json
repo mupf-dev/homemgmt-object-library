@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandkonsole neben dem Bett mit einer Schublade (40 cm über dem Boden).",
+  "en": {
+    "name": "Wall-hung bedside table",
+    "description": "Wall-mounted console next to the bed with one drawer (40 cm above the floor)."
+  },
   "size": {
     "width": 40,
     "depth": 30,

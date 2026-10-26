@@ -74,7 +74,7 @@ writeFileSync(join(OUT, 'index.json'), JSON.stringify({
   updated: new Date().toISOString().slice(0, 10),
   objects: entries.map(({ t, file, slug, places }) => ({
     id: t.id, name: t.name, group: t.group, version: t.version, author: t.author, license: t.license,
-    description: t.description ?? '', file, preview: `vorschau/${slug}.svg`,
+    description: t.description ?? '', ...(t.en ? { en: t.en } : {}), file, preview: `vorschau/${slug}.svg`,
     size: [t.size.width, t.size.depth, t.size.height], places, model: t.build.type === 'modell',
   })),
 }, null, 2) + '\n');
@@ -121,7 +121,7 @@ function preview(t: ObjectType) {
 /** English labels for the gallery only; `group` in the data stays as the app uses it */
 function groupLabel(g: string) {
   const labels: Record<string, string> = {
-    Arbeitszimmer: 'Study', Bad: 'Bathroom', Diele: 'Hallway', 'Garten & Garage': 'Garden & garage',
+    Arbeitszimmer: 'Study', Bad: 'Bathroom', Diele: 'Entrance hall', 'Garten & Garage': 'Garden & garage',
     'Keller & Hauswirtschaft': 'Basement & utility room', Kinderzimmer: "Children's room", Küche: 'Kitchen',
     Schlafzimmer: 'Bedroom', 'Schränke & Regale': 'Cabinets & shelf units', Werkstatt: 'Workshop', Wohnzimmer: 'Living room',
   };
@@ -132,11 +132,11 @@ function gallery() {
   const esc = (v: unknown) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
   const groups = [...new Set(entries.map((e) => e.t.group))];
   const cards = entries.map(({ t, file, slug, places }) => `
-      <article class="card" data-group="${esc(t.group)}" data-q="${esc(`${t.name} ${t.group} ${groupLabel(t.group)} ${t.description ?? ''} ${t.author}`.toLowerCase())}">
+      <article class="card" data-group="${esc(t.group)}" data-q="${esc(`${t.name} ${t.en?.name ?? ''} ${t.group} ${groupLabel(t.group)} ${t.description ?? ''} ${t.en?.description ?? ''} ${t.author}`.toLowerCase())}">
         <img src="vorschau/${slug}.svg" alt="" loading="lazy" />
-        <h3>${esc(t.name)}</h3>
+        <h3>${esc(t.en?.name || t.name)}</h3>${t.en?.name ? `<p class="meta" lang="de">${esc(t.name)}</p>` : ''}
         <p class="meta">${esc(groupLabel(t.group))} · ${t.size.width} × ${t.size.depth} × ${t.size.height} cm · <b>${places} compartments</b></p>
-        ${t.description ? `<p>${esc(t.description)}</p>` : ''}
+        ${t.en?.description || t.description ? `<p>${esc(t.en?.description || t.description)}</p>` : ''}
         <p class="meta">Version ${esc(t.version)} · ${esc(t.author)} · ${esc(t.license)}${t.build.type === 'modell' ? ' · 3D model' : ''}</p>
         <a href="${file}" download>Download JSON</a>
       </article>`).join('');

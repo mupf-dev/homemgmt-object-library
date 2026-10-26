@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Links eine Tür mit Boden, rechts drei Schubladen.",
+  "en": {
+    "name": "Chest of drawers, 2 doors 3 drawers",
+    "description": "A door with a shelf on the left, three drawers on the right."
+  },
   "size": {
     "width": 120,
     "depth": 45,

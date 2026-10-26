@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Zwei Schubkästen unter dem Bett, z. B. für Bettwäsche oder Saisonkleidung.",
+  "en": {
+    "name": "Under-bed drawers, set of 2",
+    "description": "Two drawers under the bed, e.g. for bed linen or seasonal clothing."
+  },
   "size": {
     "width": 160,
     "depth": 65,

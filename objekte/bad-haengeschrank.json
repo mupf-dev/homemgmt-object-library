@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Zweitüriger Hängeschrank fürs Bad mit je drei Böden.",
+  "en": {
+    "name": "Bathroom wall cabinet",
+    "description": "Two-door bathroom wall cabinet with three shelves each."
+  },
   "size": {
     "width": 80,
     "depth": 20,

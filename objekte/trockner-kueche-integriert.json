@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Einbau-Trockner hinter einer Möbelfront in der Küchenzeile.",
+  "en": {
+    "name": "Integrated tumble dryer (kitchen)",
+    "description": "Built-in tumble dryer behind a furniture front in the kitchen run."
+  },
   "size": {
     "width": 60,
     "depth": 60,

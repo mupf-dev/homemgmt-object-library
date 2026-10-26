@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offene Garderobe: Hutablage, Jackenhaken, Sitzbank mit Schuhfach darunter.",
+  "en": {
+    "name": "Open coat rack with bench",
+    "description": "Open coat rack: hat shelf, coat hooks, seating bench with a shoe compartment underneath."
+  },
   "size": {
     "width": 120,
     "depth": 40,

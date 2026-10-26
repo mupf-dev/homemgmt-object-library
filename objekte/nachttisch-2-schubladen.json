@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Nachttisch mit zwei Schubladen.",
+  "en": {
+    "name": "Bedside table, 2 drawers",
+    "description": "Bedside table with two drawers."
+  },
   "size": {
     "width": 45,
     "depth": 40,

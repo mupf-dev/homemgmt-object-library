@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmaler Unterschrank-Auszug neben dem Herd für Öle und Gewürze, drei Ebenen.",
+  "en": {
+    "name": "Pull-out larder unit 15",
+    "description": "Narrow base cabinet pull-out next to the hob for oils and spices, three levels."
+  },
   "size": {
     "width": 15,
     "depth": 57,

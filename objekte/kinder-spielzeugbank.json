@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Sitzbank mit drei herausziehbaren Spielzeugkisten.",
+  "en": {
+    "name": "Toy bench with boxes",
+    "description": "Seating bench with three pull-out toy boxes."
+  },
   "size": {
     "width": 100,
     "depth": 40,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Arbeitstisch für Garten und Balkon: Schublade für Werkzeug, darunter Böden für Töpfe und Erde.",
+  "en": {
+    "name": "Potting table",
+    "description": "Work table for garden and balcony: drawer for tools, shelves below for pots and soil."
+  },
   "size": {
     "width": 100,
     "depth": 50,

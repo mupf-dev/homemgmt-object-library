@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Unterbau-Kühlschrank mit Gefrierfach oben und zwei Kühlebenen.",
+  "en": {
+    "name": "Under-counter fridge",
+    "description": "Under-counter fridge with freezer compartment at the top and two fridge levels."
+  },
   "size": {
     "width": 60,
     "depth": 60,

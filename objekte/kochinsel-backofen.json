@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Insel mit Kochfeld und Backofen darunter, links Auszüge, rechts Tür für Bleche und Backformen.",
+  "en": {
+    "name": "Kitchen island with oven",
+    "description": "Island with hob and oven underneath, pull-outs on the left, door for baking trays and tins on the right."
+  },
   "size": {
     "width": 180,
     "depth": 100,

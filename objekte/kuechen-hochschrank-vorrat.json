@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hochschrank mit zwei Türen: oben vier, unten drei Vorratsebenen.",
+  "en": {
+    "name": "Kitchen tall cabinet, pantry",
+    "description": "Tall cabinet with two doors: four storage levels above, three below."
+  },
   "size": {
     "width": 60,
     "depth": 60,

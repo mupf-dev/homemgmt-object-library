@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "TV-Wand: hohe Regalseiten, in der Mitte Bildschirmfeld mit Hängeboard und Lowboard darunter.",
+  "en": {
+    "name": "TV media wall",
+    "description": "TV wall unit: tall shelf sides, screen area in the middle with wall-hung unit and low sideboard below."
+  },
   "size": {
     "width": 280,
     "depth": 40,

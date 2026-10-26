@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Standgefrierschrank mit sieben Schubladen – jede ein eigener Lagerplatz.",
+  "en": {
+    "name": "Freezer, 7 drawers",
+    "description": "Freestanding freezer with seven drawers – each one a separate location."
+  },
   "size": {
     "width": 60,
     "depth": 65,

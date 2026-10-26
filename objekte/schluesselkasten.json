@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kleiner Wandkasten für Schlüssel mit einer Tür.",
+  "en": {
+    "name": "Key cabinet",
+    "description": "Small wall-mounted key cabinet with one door."
+  },
   "size": {
     "width": 30,
     "depth": 8,

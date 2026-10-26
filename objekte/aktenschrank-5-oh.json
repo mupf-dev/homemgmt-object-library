@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hoher Aktenschrank mit zwei Türen und fünf Ordnerhöhen.",
+  "en": {
+    "name": "Filing cabinet, 5 file heights",
+    "description": "Tall filing cabinet with two doors and five file heights."
+  },
   "size": {
     "width": 80,
     "depth": 42,

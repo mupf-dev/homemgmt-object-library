@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Werkbank: rechts Schubladenblock, links offenes Fach mit Boden.",
+  "en": {
+    "name": "Workbench with drawers",
+    "description": "Workbench: drawer block on the right, open compartment with shelf on the left."
+  },
   "size": {
     "width": 150,
     "depth": 70,

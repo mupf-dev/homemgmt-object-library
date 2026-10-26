@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kompakte Insel für kleinere Küchen: zwei Auszugsblöcke, oben je eine Besteckschublade.",
+  "en": {
+    "name": "Small kitchen island 120",
+    "description": "Compact island for smaller kitchens: two pull-out blocks, a cutlery drawer on top of each."
+  },
   "size": {
     "width": 120,
     "depth": 90,

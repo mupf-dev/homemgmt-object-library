@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmales offenes Ankleide-Modul mit acht Schuhböden.",
+  "en": {
+    "name": "Dressing room unit, shoes",
+    "description": "Narrow open dressing room unit with eight shoe shelves."
+  },
   "size": {
     "width": 50,
     "depth": 40,

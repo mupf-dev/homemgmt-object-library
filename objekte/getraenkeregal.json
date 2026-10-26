@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schrägregal für drei Getränkekisten übereinander.",
+  "en": {
+    "name": "Drinks crate rack",
+    "description": "Sloping rack for three drinks crates stacked on top of each other."
+  },
   "size": {
     "width": 70,
     "depth": 40,

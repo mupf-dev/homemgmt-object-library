@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Repräsentative Insel: Weinklimaschrank, Schubladenblöcke und zwei Türen mit Böden.",
+  "en": {
+    "name": "Kitchen island with wine cooler",
+    "description": "Statement island: wine cabinet, drawer blocks and two doors with shelves."
+  },
   "size": {
     "width": 240,
     "depth": 100,

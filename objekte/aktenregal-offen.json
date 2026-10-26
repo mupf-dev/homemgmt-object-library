@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offenes Regal mit fünf Ordnerhöhen.",
+  "en": {
+    "name": "Open filing shelf unit, 5 file heights",
+    "description": "Open shelf unit with five file heights."
+  },
   "size": {
     "width": 80,
     "depth": 35,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wetterfester Geräteschrank: links lange Gartengeräte, rechts Böden für Dünger und Töpfe.",
+  "en": {
+    "name": "Garden cabinet, 2 doors",
+    "description": "Weatherproof tool cabinet: long garden tools on the left, shelves for fertiliser and pots on the right."
+  },
   "size": {
     "width": 100,
     "depth": 55,

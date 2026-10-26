@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Klassisches Bücherregal mit sechs Böden.",
+  "en": {
+    "name": "Bookcase 80",
+    "description": "Classic bookcase with six shelves."
+  },
   "size": {
     "width": 80,
     "depth": 28,

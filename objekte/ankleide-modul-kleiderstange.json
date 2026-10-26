@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offenes Modul für den begehbaren Kleiderschrank: Hutablage oben, zwei Kleiderstangen übereinander.",
+  "en": {
+    "name": "Dressing room unit, hanging rails",
+    "description": "Open unit for a walk-in wardrobe: hat shelf at the top, two hanging rails one above the other."
+  },
   "size": {
     "width": 100,
     "depth": 50,

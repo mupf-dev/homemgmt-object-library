@@ -90,6 +90,8 @@ export interface ObjectType {
   author?: string;
   license?: string;
   description?: string;
+  /** English name and description (optional, shown when the app is set to English) */
+  en?: { name?: string; description?: string };
   size: { width: number; depth: number; height: number; elevation: number; widths?: number[] };
   snapToWall: boolean;
   materials?: Partial<Record<MaterialSlot, string>>;
@@ -206,6 +208,10 @@ export function validateObjectType(raw: unknown): ObjectType {
     ...(o.author ? { author: str(o.author, 60, 'Autor') } : {}),
     ...(o.license ? { license: str(o.license, 40, 'Lizenz') } : {}),
     ...(o.description ? { description: str(o.description, 500, 'Beschreibung') } : {}),
+    ...(o.en?.name || o.en?.description ? { en: {
+      ...(o.en.name ? { name: str(o.en.name, 60, 'Name (englisch)') } : {}),
+      ...(o.en.description ? { description: str(o.en.description, 500, 'Beschreibung (englisch)') } : {}),
+    } } : {}),
     size,
     snapToWall: o.snapToWall !== false,
     ...(Object.keys(materials).length ? { materials } : {}),

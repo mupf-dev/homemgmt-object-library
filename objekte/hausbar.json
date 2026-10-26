@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hausbar: oben Glasregal für Flaschen, Gläserfach, Schublade für Barzubehör, unten Tür.",
+  "en": {
+    "name": "Drinks cabinet",
+    "description": "Home bar: glass shelf for bottles at the top, glasses compartment, drawer for bar accessories, door below."
+  },
   "size": {
     "width": 80,
     "depth": 45,

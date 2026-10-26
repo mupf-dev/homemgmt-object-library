@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Moderne Kommode mit Rillenfront (fluted) auf hohen Füßen: zwei Türen außen, drei Schubladen in der Mitte.",
+  "en": {
+    "name": "Fluted-front chest of drawers",
+    "description": "Modern chest of drawers with fluted front on tall legs: two doors at the sides, three drawers in the middle."
+  },
   "size": {
     "width": 120,
     "depth": 45,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Unterschrank für zwei Becken mit je zwei Auszügen.",
+  "en": {
+    "name": "Double washbasin base cabinet",
+    "description": "Base cabinet for two basins with two pull-outs each."
+  },
   "size": {
     "width": 120,
     "depth": 46,

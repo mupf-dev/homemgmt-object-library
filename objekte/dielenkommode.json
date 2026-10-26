@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Flache Flurkommode: zwei Schubladen für Schlüssel und Post, darunter eine Tür.",
+  "en": {
+    "name": "Hallway chest of drawers",
+    "description": "Shallow hallway chest of drawers: two drawers for keys and post, with a door below."
+  },
   "size": {
     "width": 80,
     "depth": 35,

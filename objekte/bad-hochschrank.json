@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmaler Hochschrank: oben Tür mit drei Böden, Schublade, unten Wäschefach.",
+  "en": {
+    "name": "Bathroom tall cabinet",
+    "description": "Narrow tall cabinet: door with three shelves at the top, drawer, laundry compartment at the bottom."
+  },
   "size": {
     "width": 35,
     "depth": 35,

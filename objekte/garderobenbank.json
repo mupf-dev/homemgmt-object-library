@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Sitzbank mit zwei Schuhfächern und einer Schublade.",
+  "en": {
+    "name": "Hallway bench",
+    "description": "Seating bench with two shoe compartments and a drawer."
+  },
   "size": {
     "width": 100,
     "depth": 38,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Standgerät: Kühlteil mit drei Ablagen und Gemüsefach, darunter drei Gefrierschubladen.",
+  "en": {
+    "name": "Fridge freezer",
+    "description": "Freestanding appliance: fridge section with three shelves and salad drawer, three freezer drawers below."
+  },
   "size": {
     "width": 60,
     "depth": 65,

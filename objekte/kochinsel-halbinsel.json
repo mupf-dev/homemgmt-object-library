@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Einseitig an der Wand angesetzte Halbinsel: Auszüge, Tür mit Boden und offenes Fach am Kopfende.",
+  "en": {
+    "name": "Peninsula (kitchen counter)",
+    "description": "Peninsula attached to the wall on one side: pull-outs, door with shelf and open compartment at the end."
+  },
   "size": {
     "width": 160,
     "depth": 90,

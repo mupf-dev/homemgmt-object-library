@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Halbhohes Regal mit drei Böden, z. B. unter dem Fenster.",
+  "en": {
+    "name": "Low bookcase",
+    "description": "Half-height shelf unit with three shelves, e.g. under the window."
+  },
   "size": {
     "width": 80,
     "depth": 28,

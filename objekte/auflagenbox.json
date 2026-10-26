@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kissenbox mit Deckel für Polster und Auflagen.",
+  "en": {
+    "name": "Cushion storage box",
+    "description": "Cushion box with lid for pads and cushions."
+  },
   "size": {
     "width": 130,
     "depth": 60,

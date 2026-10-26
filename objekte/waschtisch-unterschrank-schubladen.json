@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängender Unterschrank unter dem Waschbecken mit zwei Auszügen.",
+  "en": {
+    "name": "Vanity base cabinet, 2 pull-outs",
+    "description": "Wall-hung base cabinet under the washbasin with two pull-outs."
+  },
   "size": {
     "width": 60,
     "depth": 46,

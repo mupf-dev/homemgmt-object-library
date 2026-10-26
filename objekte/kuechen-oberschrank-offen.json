@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offene Wandborde statt Oberschrank – zwei Ebenen für Gläser und Gewürze.",
+  "en": {
+    "name": "Open kitchen wall shelves",
+    "description": "Open wall shelves instead of a wall cabinet – two levels for glasses and spices."
+  },
   "size": {
     "width": 90,
     "depth": 30,

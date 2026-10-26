@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Breiter Hängeschrank mit zwei Türen und je drei Ebenen.",
+  "en": {
+    "name": "Kitchen wall cabinet 80, 2 doors",
+    "description": "Wide wall cabinet with two doors and three levels each."
+  },
   "size": {
     "width": 80,
     "depth": 35,

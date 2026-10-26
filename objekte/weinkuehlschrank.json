@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Unterbau-Weinklimaschrank mit sechs Holzrosten.",
+  "en": {
+    "name": "Wine fridge",
+    "description": "Under-counter wine cabinet with six wooden racks."
+  },
   "size": {
     "width": 60,
     "depth": 57,

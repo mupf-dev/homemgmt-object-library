@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Komplette Zeile unter einer Arbeitsplatte: Ausgussbecken mit Unterschrank, Waschmaschine, Trockner und Schubladen für Putzmittel.",
+  "en": {
+    "name": "Utility room run with sink",
+    "description": "Complete run under a worktop: utility sink with base cabinet, washing machine, tumble dryer and drawers for cleaning products."
+  },
   "size": {
     "width": 240,
     "depth": 68,

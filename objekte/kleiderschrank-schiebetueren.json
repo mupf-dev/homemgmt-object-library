@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Zwei Schwebetüren, dahinter je Hutboden – links Kleiderstange, rechts Böden und drei Schubladen.",
+  "en": {
+    "name": "Sliding door wardrobe 200",
+    "description": "Two sliding doors with a hat shelf behind each – hanging rail on the left, shelves and three drawers on the right."
+  },
   "size": {
     "width": 200,
     "depth": 65,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Steckregal aus Metall mit fünf Böden für Vorräte, Kisten und Getränke.",
+  "en": {
+    "name": "Heavy-duty shelf unit, 5 shelves",
+    "description": "Metal boltless shelf unit with five shelves for supplies, boxes and drinks."
+  },
   "size": {
     "width": 90,
     "depth": 45,

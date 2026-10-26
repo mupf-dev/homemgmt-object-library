@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängender Unterschrank mit zwei Türen und je einem Boden.",
+  "en": {
+    "name": "Vanity base cabinet, 2 doors",
+    "description": "Wall-hung base cabinet with two doors and one shelf each."
+  },
   "size": {
     "width": 80,
     "depth": 46,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehender Frontlader 60 cm: Waschmittelfach oben, Trommel mit Bullauge.",
+  "en": {
+    "name": "Washing machine (front loader), white",
+    "description": "Freestanding 60 cm front loader: detergent drawer at the top, drum with porthole."
+  },
   "size": {
     "width": 60,
     "depth": 60,

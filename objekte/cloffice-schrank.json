@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Homeoffice hinter Türen: Regale oben, ausklappbare Arbeitsfläche, Druckerfach und Schubladen unten.",
+  "en": {
+    "name": "Cloffice (office in a cupboard)",
+    "description": "Home office behind doors: shelves at the top, fold-out work surface, printer compartment and drawers below."
+  },
   "size": {
     "width": 120,
     "depth": 60,

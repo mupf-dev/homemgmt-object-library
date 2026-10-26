@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Vollintegrierbare Waschmaschine hinter einer Möbelfront in der Küchenzeile – unsichtbar unter der Arbeitsplatte.",
+  "en": {
+    "name": "Integrated washing machine (kitchen)",
+    "description": "Fully integrable washing machine behind a furniture front in the kitchen run – invisible under the worktop."
+  },
   "size": {
     "width": 60,
     "depth": 60,

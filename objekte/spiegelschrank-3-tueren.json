@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Breiter Spiegelschrank mit drei Türen und je drei Ablagen.",
+  "en": {
+    "name": "Mirror cabinet, 3 doors",
+    "description": "Wide mirror cabinet with three doors and three shelves each."
+  },
   "size": {
     "width": 100,
     "depth": 15,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Lowboard für Vinyl: vier Plattenfächer (je ca. 33 cm), oben Platz für den Plattenspieler.",
+  "en": {
+    "name": "Record shelf unit",
+    "description": "Low sideboard for vinyl: four record compartments (approx. 33 cm each), space on top for the record player."
+  },
   "size": {
     "width": 150,
     "depth": 40,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Spiegelschrank über dem Waschbecken, zwei Türen mit je drei Ablagen.",
+  "en": {
+    "name": "Mirror cabinet, 2 doors",
+    "description": "Mirror cabinet above the washbasin, two doors with three shelves each."
+  },
   "size": {
     "width": 60,
     "depth": 15,

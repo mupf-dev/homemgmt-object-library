@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Niedriges, offenes Spielregal (2 × 2) – Kinder kommen an alles selbst heran.",
+  "en": {
+    "name": "Montessori shelf unit",
+    "description": "Low, open play shelf unit (2 × 2) – children can reach everything themselves."
+  },
   "size": {
     "width": 100,
     "depth": 30,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängeschrank für die Garage mit zwei Türen und je zwei Böden – Autopflege, Ersatzteile.",
+  "en": {
+    "name": "Garage wall cabinet",
+    "description": "Wall cabinet for the garage with two doors and two shelves each – car care products, spare parts."
+  },
   "size": {
     "width": 120,
     "depth": 35,
