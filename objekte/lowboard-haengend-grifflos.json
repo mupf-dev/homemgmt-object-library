@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schwebendes TV-Lowboard mit Push-to-open: zwei Klappen, Mitte offen für Geräte.",
+  "en": {
+    "name": "Wall-hung handleless low sideboard",
+    "description": "Floating TV low sideboard with push-to-open: two flaps, open in the middle for devices."
+  },
   "size": {
     "width": 200,
     "depth": 40,

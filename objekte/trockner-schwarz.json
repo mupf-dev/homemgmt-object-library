@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehender Trockner: Kondenswasserbehälter oben, Trommel darunter – in Schwarz mit dunkler Bedienblende.",
+  "en": {
+    "name": "Heat pump tumble dryer, black",
+    "description": "Freestanding tumble dryer: condensate container at the top, drum below – in black with dark control panel."
+  },
   "size": {
     "width": 60,
     "depth": 65,

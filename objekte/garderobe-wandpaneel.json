@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandpaneel mit Haken und kleinem Klappfach oben für Mützen und Handschuhe.",
+  "en": {
+    "name": "Wall coat rack panel",
+    "description": "Wall panel with hooks and a small flap compartment at the top for hats and gloves."
+  },
   "size": {
     "width": 80,
     "depth": 25,

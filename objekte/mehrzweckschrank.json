@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Einfacher Schrank mit zwei Türen und fünf durchgehenden Böden.",
+  "en": {
+    "name": "Multipurpose cabinet, 2 doors",
+    "description": "Simple cabinet with two doors and five full-width shelves."
+  },
   "size": {
     "width": 80,
     "depth": 40,

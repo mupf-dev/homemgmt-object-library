@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Arbeitsplatte über Waschmaschine und Trockner, daneben Unterschrank mit drei Wäschekorb-Auszügen (hell, dunkel, bunt).",
+  "en": {
+    "name": "Laundry area with base cabinet",
+    "description": "Worktop over washing machine and tumble dryer, with a base cabinet beside it with three laundry basket pull-outs (light, dark, coloured)."
+  },
   "size": {
     "width": 180,
     "depth": 68,

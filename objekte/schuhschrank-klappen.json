@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Flacher Schuhschrank: oben eine Schublade, darunter zwei Kippklappen.",
+  "en": {
+    "name": "Shoe cabinet with 2 flaps",
+    "description": "Shallow shoe cabinet: one drawer at the top, two tilting flaps below."
+  },
   "size": {
     "width": 80,
     "depth": 24,

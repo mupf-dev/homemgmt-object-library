@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schwebendes Sideboard mit grifflosen Türen.",
+  "en": {
+    "name": "Wall-hung sideboard, 3 doors",
+    "description": "Floating sideboard with handleless doors."
+  },
   "size": {
     "width": 180,
     "depth": 40,

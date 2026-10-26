@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Beidseitig offenes Regal als Raumteiler mit 4 × 4 Fächern.",
+  "en": {
+    "name": "Room divider shelf unit",
+    "description": "Shelf unit open on both sides as a room divider with 4 × 4 compartments."
+  },
   "size": {
     "width": 160,
     "depth": 35,

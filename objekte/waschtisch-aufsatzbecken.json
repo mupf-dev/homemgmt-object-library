@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängender Waschtisch in Holzoptik: eine breite Schublade, darunter offenes Handtuchfach.",
+  "en": {
+    "name": "Vanity unit for countertop basin",
+    "description": "Wall-hung vanity unit in wood look: one wide drawer, open towel compartment below."
+  },
   "size": {
     "width": 100,
     "depth": 48,

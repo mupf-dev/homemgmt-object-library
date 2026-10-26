@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandbündiger Spiegelschrank mit LED-Licht, zwei Türen mit je drei Glasböden.",
+  "en": {
+    "name": "Recessed LED mirror cabinet",
+    "description": "Flush-fitting mirror cabinet with LED lighting, two doors with three glass shelves each."
+  },
   "size": {
     "width": 80,
     "depth": 12,

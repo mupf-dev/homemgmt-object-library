@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmaler Hochschrank mit Vollauszug und fünf Ablagen – jede Ablage ist ein eigener Lagerplatz.",
+  "en": {
+    "name": "Pull-out larder unit 30",
+    "description": "Narrow tall cabinet with full-extension pull-out and five shelves – every shelf is a separate location."
+  },
   "size": {
     "width": 30,
     "depth": 57,

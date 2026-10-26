@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hochschrank: links Besen, Wischmopp und Staubsauger, rechts Böden für Putzmittel.",
+  "en": {
+    "name": "Broom cabinet",
+    "description": "Tall cabinet: brooms, mop and vacuum cleaner on the left, shelves for cleaning products on the right."
+  },
   "size": {
     "width": 60,
     "depth": 40,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Glastür mit vier Böden, unten eine Schublade.",
+  "en": {
+    "name": "Display cabinet",
+    "description": "Glass door with four shelves, a drawer at the bottom."
+  },
   "size": {
     "width": 60,
     "depth": 40,

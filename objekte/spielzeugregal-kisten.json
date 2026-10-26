@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Regal mit sechs flachen Kunststoffkisten (als Schubladen) und offener Ablage oben.",
+  "en": {
+    "name": "Toy shelf unit with boxes",
+    "description": "Shelf unit with six shallow plastic boxes (as drawers) and an open shelf on top."
+  },
   "size": {
     "width": 90,
     "depth": 30,

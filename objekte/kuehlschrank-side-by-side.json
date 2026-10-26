@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Amerikanischer Kühlschrank: links Gefrieren, rechts Kühlen mit Gemüsefach.",
+  "en": {
+    "name": "Side-by-side fridge freezer",
+    "description": "American-style fridge freezer: freezer on the left, fridge with salad drawer on the right."
+  },
   "size": {
     "width": 91,
     "depth": 72,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Vier gleich hohe Schubladen für Kleinzeug, Folien und Gewürze.",
+  "en": {
+    "name": "Kitchen base cabinet, 4 drawers",
+    "description": "Four drawers of equal height for small items, wraps and spices."
+  },
   "size": {
     "width": 40,
     "depth": 60,

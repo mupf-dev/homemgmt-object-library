@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Eintüriger Schrank mit Hutboden und Kleiderstange – z. B. für Gästezimmer oder Nischen.",
+  "en": {
+    "name": "Narrow wardrobe 50",
+    "description": "Single-door wardrobe with hat shelf and hanging rail – e.g. for guest rooms or alcoves."
+  },
   "size": {
     "width": 50,
     "depth": 58,

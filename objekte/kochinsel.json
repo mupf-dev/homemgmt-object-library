@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehende Insel: drei Auszugsblöcke unter dem Kochfeld, rechts offene Ablage für Kochbücher.",
+  "en": {
+    "name": "Kitchen island 180",
+    "description": "Freestanding island: three pull-out blocks under the hob, open shelf for cookbooks on the right."
+  },
   "size": {
     "width": 180,
     "depth": 90,

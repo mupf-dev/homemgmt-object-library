@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kombigerät, das wäscht und trocknet – spart den Platz für ein zweites Gerät.",
+  "en": {
+    "name": "Washer-dryer",
+    "description": "Combined appliance that washes and dries – saves the space of a second appliance."
+  },
   "size": {
     "width": 60,
     "depth": 60,

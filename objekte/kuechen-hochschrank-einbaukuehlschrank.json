@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hochschrank mit Einbau-Kühlgerät (Kühlteil, Gemüsefach, Gefrierschubladen) und Aufsatz-Tür oben.",
+  "en": {
+    "name": "Tall cabinet, built-in fridge",
+    "description": "Tall cabinet with built-in fridge (fridge section, salad drawer, freezer drawers) and a door above."
+  },
   "size": {
     "width": 60,
     "depth": 60,

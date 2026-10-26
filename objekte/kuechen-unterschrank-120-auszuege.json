@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Breiter Unterschrank mit Griffmulde: Innenschublade für Besteck, zwei extrabreite Topfauszüge.",
+  "en": {
+    "name": "Kitchen base cabinet 120, handleless",
+    "description": "Wide base cabinet with finger pull: inner drawer for cutlery, two extra-wide pan drawers."
+  },
   "size": {
     "width": 120,
     "depth": 60,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Gefriertruhe mit zwei Körben oben und zwei Bereichen im Truhenraum.",
+  "en": {
+    "name": "Chest freezer",
+    "description": "Chest freezer with two baskets at the top and two areas in the main chest space."
+  },
   "size": {
     "width": 100,
     "depth": 65,

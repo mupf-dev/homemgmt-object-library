@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Unterschrank mit Tür und einem Einlegeboden.",
+  "en": {
+    "name": "Kitchen base cabinet, 1 door",
+    "description": "Base cabinet with door and one shelf."
+  },
   "size": {
     "width": 60,
     "depth": 60,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Industrieller Schubladenschrank mit Vollauszügen, flach bis tief.",
+  "en": {
+    "name": "Workshop drawer cabinet, 10 drawers",
+    "description": "Industrial drawer cabinet with full-extension drawers, shallow to deep."
+  },
   "size": {
     "width": 70,
     "depth": 60,

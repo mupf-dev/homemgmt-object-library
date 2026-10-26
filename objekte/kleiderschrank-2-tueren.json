@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Links Hutboden und Kleiderstange, rechts fünf Wäscheböden.",
+  "en": {
+    "name": "Wardrobe, 2 doors",
+    "description": "Hat shelf and hanging rail on the left, five shelves for linen on the right."
+  },
   "size": {
     "width": 100,
     "depth": 60,

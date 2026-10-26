@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Außen offene Fächer für Geräte, in der Mitte zwei Klappen für Spiele und Kabel.",
+  "en": {
+    "name": "TV low sideboard, 2 flaps",
+    "description": "Open compartments at the sides for devices, two flaps in the middle for games and cables."
+  },
   "size": {
     "width": 180,
     "depth": 40,

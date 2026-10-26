@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandmagazin mit 4 × 5 kleinen Schüben für Schrauben, Dübel und Kleinteile.",
+  "en": {
+    "name": "Small parts organiser, 20 drawers",
+    "description": "Wall-mounted organiser with 4 × 5 small drawers for screws, wall plugs and small parts."
+  },
   "size": {
     "width": 40,
     "depth": 16,

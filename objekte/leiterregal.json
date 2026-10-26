@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmales Leiterregal mit fünf Ebenen für Pflanzen und Deko.",
+  "en": {
+    "name": "Ladder shelf unit",
+    "description": "Narrow ladder shelf unit with five levels for plants and decorations."
+  },
   "size": {
     "width": 60,
     "depth": 40,

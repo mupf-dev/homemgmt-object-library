@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandhängendes Board mit zwei Klappen (Unterkante 50 cm).",
+  "en": {
+    "name": "Wall unit, 2 flaps",
+    "description": "Wall-hung unit with two flaps (bottom edge 50 cm)."
+  },
   "size": {
     "width": 120,
     "depth": 30,

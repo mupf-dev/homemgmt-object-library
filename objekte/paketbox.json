@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Paketkasten für den Eingang: Briefkasten oben, Paketfach unten.",
+  "en": {
+    "name": "Parcel box",
+    "description": "Parcel box for the entrance: letterbox at the top, parcel compartment below."
+  },
   "size": {
     "width": 60,
     "depth": 50,

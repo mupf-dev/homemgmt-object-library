@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Spülinsel: Spülenschrank mit Mülltrennung, Geschirrspüler-Nische und Auszüge für Geschirr.",
+  "en": {
+    "name": "Kitchen island with sink",
+    "description": "Sink island: sink cabinet with waste separation, dishwasher space and pull-outs for crockery."
+  },
   "size": {
     "width": 200,
     "depth": 100,

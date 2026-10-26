@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Zweitüriger Vorratsschrank mit je sechs Böden.",
+  "en": {
+    "name": "Pantry cabinet",
+    "description": "Two-door pantry cabinet with six shelves each."
+  },
   "size": {
     "width": 100,
     "depth": 40,

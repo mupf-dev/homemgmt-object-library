@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Sideboard in Ordnerhöhe: zwei Schiebetüren, zwei Fächer dahinter, Mitte Hängeregistratur.",
+  "en": {
+    "name": "Filing sideboard, 2 file heights",
+    "description": "Sideboard at file height: two sliding doors, two compartments behind them, suspension filing in the middle."
+  },
   "size": {
     "width": 160,
     "depth": 45,

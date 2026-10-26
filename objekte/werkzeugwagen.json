@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Werkstattwagen: offene Ablage oben, sieben Schubladen (flach bis tief).",
+  "en": {
+    "name": "Tool trolley, 7 drawers",
+    "description": "Workshop trolley: open shelf at the top, seven drawers (shallow to deep)."
+  },
   "size": {
     "width": 70,
     "depth": 46,

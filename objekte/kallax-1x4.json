@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Würfelregal mit vier Fächern übereinander (je 33 × 33 cm).",
+  "en": {
+    "name": "Shelf unit 1×4 (cube unit)",
+    "description": "Cube shelf unit with four compartments stacked vertically (33 × 33 cm each)."
+  },
   "size": {
     "width": 42,
     "depth": 39,

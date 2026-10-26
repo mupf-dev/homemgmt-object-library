@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Flacher Hängeschrank mit Liftklappe, z. B. über der Dunstabzugshaube.",
+  "en": {
+    "name": "Kitchen wall cabinet, flap door",
+    "description": "Shallow wall cabinet with lift-up flap, e.g. above the extractor hood."
+  },
   "size": {
     "width": 90,
     "depth": 35,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Metallschrank mit zwei Türen und vier Böden.",
+  "en": {
+    "name": "Workshop cabinet, 2 doors",
+    "description": "Metal cabinet with two doors and four shelves."
+  },
   "size": {
     "width": 90,
     "depth": 50,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Würfelregal mit acht Fächern (je 33 × 33 cm), stehend oder liegend.",
+  "en": {
+    "name": "Shelf unit 2×4 (cube unit)",
+    "description": "Cube shelf unit with eight compartments (33 × 33 cm each), upright or on its side."
+  },
   "size": {
     "width": 77,
     "depth": 39,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Beide Geräte nebeneinander auf einem gemeinsamen Podest mit zwei Schubladen.",
+  "en": {
+    "name": "Washing machine + dryer on plinth",
+    "description": "Both appliances side by side on a shared plinth with two drawers."
+  },
   "size": {
     "width": 125,
     "depth": 65,

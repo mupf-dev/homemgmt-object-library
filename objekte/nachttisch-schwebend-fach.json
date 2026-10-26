@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Grifflose Wandkonsole: Schublade links, offenes Fach rechts für Handy und Buch.",
+  "en": {
+    "name": "Floating bedside table with compartment",
+    "description": "Handleless wall-mounted console: drawer on the left, open compartment on the right for phone and book."
+  },
   "size": {
     "width": 50,
     "depth": 30,

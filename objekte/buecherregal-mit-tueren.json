@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Oben vier offene Böden, unten zwei geschlossene Fächer hinter einer Tür.",
+  "en": {
+    "name": "Bookcase with doors below",
+    "description": "Four open shelves at the top, two closed compartments behind a door below."
+  },
   "size": {
     "width": 80,
     "depth": 30,

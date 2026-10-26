@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Sideboard im Midcentury-Stil mit Rillenfront und Füßen – vier Türen, innen je ein Boden.",
+  "en": {
+    "name": "Fluted-front sideboard",
+    "description": "Mid-century style sideboard with fluted front and legs – four doors, one shelf inside each."
+  },
   "size": {
     "width": 180,
     "depth": 45,

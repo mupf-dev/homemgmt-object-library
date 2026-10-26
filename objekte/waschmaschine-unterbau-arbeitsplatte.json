@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Waschmaschine eingebaut unter durchgehender Arbeitsplatte (4 cm) – Ablage zum Falten.",
+  "en": {
+    "name": "Washing machine under worktop",
+    "description": "Washing machine built in under a continuous worktop (4 cm) – surface for folding."
+  },
   "size": {
     "width": 64,
     "depth": 65,

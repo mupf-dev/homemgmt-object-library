@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hohe Kommode (Chest) mit fünf Schubladen, oben flacher für Kleinkram.",
+  "en": {
+    "name": "Tall chest of drawers, 5 drawers",
+    "description": "Tall chest of drawers with five drawers, the top one shallower for odds and ends."
+  },
   "size": {
     "width": 80,
     "depth": 48,

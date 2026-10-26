@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Eck-Unterschrank mit Drehkarussell auf zwei Ebenen.",
+  "en": {
+    "name": "Kitchen corner cabinet, carousel",
+    "description": "Corner base cabinet with rotating carousel on two levels."
+  },
   "size": {
     "width": 90,
     "depth": 90,

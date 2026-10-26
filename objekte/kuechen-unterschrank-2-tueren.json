@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Breiter Unterschrank mit zwei Türen und Einlegeboden.",
+  "en": {
+    "name": "Kitchen base cabinet, 2 doors",
+    "description": "Wide base cabinet with two doors and a shelf."
+  },
   "size": {
     "width": 80,
     "depth": 60,

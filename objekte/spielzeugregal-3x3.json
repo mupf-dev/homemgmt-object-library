@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Niedriges Regal mit neun Fächern für Kisten – kindgerechte Höhe.",
+  "en": {
+    "name": "Toy shelf unit 3×3",
+    "description": "Low shelf unit with nine compartments for boxes – child-friendly height."
+  },
   "size": {
     "width": 110,
     "depth": 35,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Drei Wäschesammler-Auszüge (hell, dunkel, bunt) unter einer Arbeitsfläche zum Falten.",
+  "en": {
+    "name": "Laundry cabinet (utility room)",
+    "description": "Three laundry sorting pull-outs (light, dark, coloured) under a folding surface."
+  },
   "size": {
     "width": 120,
     "depth": 50,

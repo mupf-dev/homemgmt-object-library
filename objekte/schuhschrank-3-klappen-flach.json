@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Besonders flacher Kippklappen-Schuhschrank (17 cm) für schmale Flure.",
+  "en": {
+    "name": "Shallow shoe cabinet, 3 flaps",
+    "description": "Extra-shallow tilting-flap shoe cabinet (17 cm) for narrow hallways."
+  },
   "size": {
     "width": 60,
     "depth": 17,

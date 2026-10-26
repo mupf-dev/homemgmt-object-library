@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offenes Ankleide-Modul: Böden für Pullover oben, vier Schubladen unten.",
+  "en": {
+    "name": "Dressing room unit, drawers",
+    "description": "Open dressing room unit: shelves for jumpers at the top, four drawers at the bottom."
+  },
   "size": {
     "width": 75,
     "depth": 50,

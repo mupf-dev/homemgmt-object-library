@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offenes Wandregal mit zwei Fächern (Unterkante 130 cm).",
+  "en": {
+    "name": "Wall-hung shelf unit",
+    "description": "Open wall shelf unit with two compartments (bottom edge 130 cm)."
+  },
   "size": {
     "width": 80,
     "depth": 20,

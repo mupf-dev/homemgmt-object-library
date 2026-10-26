@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Eingeflieste Wandnische in der Dusche mit zwei Ablagen für Shampoo und Seife.",
+  "en": {
+    "name": "Shower niche",
+    "description": "Tiled-in wall niche in the shower with two shelves for shampoo and soap."
+  },
   "size": {
     "width": 60,
     "depth": 10,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Rollbarer Beistellschrank: offenes Druckerfach oben, Papier und Toner dahinter.",
+  "en": {
+    "name": "Printer cabinet",
+    "description": "Mobile side cabinet: open printer compartment at the top, paper and toner behind."
+  },
   "size": {
     "width": 60,
     "depth": 50,

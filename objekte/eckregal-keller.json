@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmales Metallregal für Nischen, vier Böden.",
+  "en": {
+    "name": "Narrow basement shelf unit, 4 shelves",
+    "description": "Narrow metal shelf unit for alcoves, four shelves."
+  },
   "size": {
     "width": 40,
     "depth": 30,

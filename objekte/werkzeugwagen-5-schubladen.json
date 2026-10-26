@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kompakter Werkstattwagen mit fünf Schubladen und Ablage oben.",
+  "en": {
+    "name": "Tool trolley, 5 drawers",
+    "description": "Compact workshop trolley with five drawers and a surface on top."
+  },
   "size": {
     "width": 70,
     "depth": 46,

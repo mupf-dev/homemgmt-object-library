@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Halbhoher Kleiderschrank: Kleiderstange links, Böden rechts, zwei Schubladen unten.",
+  "en": {
+    "name": "Children's wardrobe",
+    "description": "Half-height wardrobe: hanging rail on the left, shelves on the right, two drawers at the bottom."
+  },
   "size": {
     "width": 90,
     "depth": 52,

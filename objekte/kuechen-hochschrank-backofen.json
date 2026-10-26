@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Geräte-Hochschrank: oben Tür mit Böden, Mitte Backofen-Nische, unten zwei Auszüge.",
+  "en": {
+    "name": "Kitchen tall cabinet, oven",
+    "description": "Appliance tall cabinet: door with shelves at the top, oven space in the middle, two pull-outs below."
+  },
   "size": {
     "width": 60,
     "depth": 60,

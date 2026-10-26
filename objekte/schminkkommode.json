@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Kommode als Schminkplatz: flache Schubladen mit Fächereinsätzen für Kosmetik und Schmuck.",
+  "en": {
+    "name": "Dressing table chest",
+    "description": "Chest of drawers as a make-up station: shallow drawers with compartment inserts for cosmetics and jewellery."
+  },
   "size": {
     "width": 100,
     "depth": 40,

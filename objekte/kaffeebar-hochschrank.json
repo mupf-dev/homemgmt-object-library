@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hochschrank mit Einschubtüren: Kaffeemaschine und Tassen auf Arbeitshöhe, Vorrat darüber, Schubladen unten.",
+  "en": {
+    "name": "Coffee bar tall cabinet",
+    "description": "Tall cabinet with pocket doors: coffee machine and cups at working height, supplies above, drawers below."
+  },
   "size": {
     "width": 90,
     "depth": 60,

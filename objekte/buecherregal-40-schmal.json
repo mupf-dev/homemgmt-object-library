@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Schmales Regal mit sechs Böden – passt in Ecken und Nischen.",
+  "en": {
+    "name": "Narrow bookcase 40",
+    "description": "Narrow shelf unit with six shelves – fits into corners and alcoves."
+  },
   "size": {
     "width": 40,
     "depth": 28,

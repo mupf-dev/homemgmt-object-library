@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Oben zwei Schubladen, darunter zwei Türen mit Boden.",
+  "en": {
+    "name": "Sideboard, 2 doors 2 drawers",
+    "description": "Two drawers at the top, two doors with a shelf below."
+  },
   "size": {
     "width": 140,
     "depth": 42,

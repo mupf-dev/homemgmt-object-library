@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehender Frontlader 60 cm: Waschmittelfach oben, Trommel mit Bullauge – mit Edelstahlfront und dunkler Bedienblende.",
+  "en": {
+    "name": "Washing machine (front loader), stainless steel",
+    "description": "Freestanding 60 cm front loader: detergent drawer at the top, drum with porthole – with stainless steel front and dark control panel."
+  },
   "size": {
     "width": 60,
     "depth": 60,

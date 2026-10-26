@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Modulares Büroregal aus 3 × 4 Feldern, teils mit Türen und Schubladen.",
+  "en": {
+    "name": "Modular office shelf unit",
+    "description": "Modular office shelf unit made up of 3 × 4 sections, some with doors and drawers."
+  },
   "size": {
     "width": 180,
     "depth": 40,

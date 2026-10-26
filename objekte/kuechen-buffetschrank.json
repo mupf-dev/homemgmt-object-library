@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Freistehendes Buffet: Aufsatz mit Glastüren, offene Ablage, unten Schubladen und Türen.",
+  "en": {
+    "name": "Kitchen dresser",
+    "description": "Freestanding dresser: top section with glass doors, open shelf, drawers and doors below."
+  },
   "size": {
     "width": 110,
     "depth": 45,

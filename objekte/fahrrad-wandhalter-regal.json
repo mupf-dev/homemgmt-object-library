@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wandsystem für zwei Fahrräder mit Ablage oben für Helme und Taschen.",
+  "en": {
+    "name": "Bike wall rack with shelf",
+    "description": "Wall system for two bicycles with a shelf at the top for helmets and bags."
+  },
   "size": {
     "width": 150,
     "depth": 40,

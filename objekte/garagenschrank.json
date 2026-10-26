@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hochschrank für Garage: links lange Geräte, rechts fünf Böden.",
+  "en": {
+    "name": "Tall garage cabinet",
+    "description": "Tall cabinet for the garage: long tools on the left, five shelves on the right."
+  },
   "size": {
     "width": 100,
     "depth": 45,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Drei Türen mit je einem Boden.",
+  "en": {
+    "name": "Sideboard, 3 doors",
+    "description": "Three doors with one shelf each."
+  },
   "size": {
     "width": 180,
     "depth": 45,

@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Trockner eingebaut unter Arbeitsplatte.",
+  "en": {
+    "name": "Tumble dryer under worktop",
+    "description": "Tumble dryer built in under a worktop."
+  },
   "size": {
     "width": 64,
     "depth": 68,

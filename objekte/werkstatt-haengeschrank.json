@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängeschrank über der Werkbank, zwei Türen mit je zwei Böden.",
+  "en": {
+    "name": "Workshop wall cabinet",
+    "description": "Wall cabinet above the workbench, two doors with two shelves each."
+  },
   "size": {
     "width": 80,
     "depth": 30,

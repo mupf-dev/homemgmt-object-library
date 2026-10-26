@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Hängender Mini-Schreibtisch: die Klappe wird zur Arbeitsfläche, dahinter Fächer.",
+  "en": {
+    "name": "Wall-mounted bureau",
+    "description": "Wall-hung mini desk: the flap becomes the work surface, with compartments behind."
+  },
   "size": {
     "width": 80,
     "depth": 30,

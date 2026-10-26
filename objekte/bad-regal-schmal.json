@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Offenes Standregal mit vier Ebenen für Handtücher und Pflegeprodukte.",
+  "en": {
+    "name": "Narrow bathroom shelf unit",
+    "description": "Open freestanding shelf unit with four levels for towels and toiletries."
+  },
   "size": {
     "width": 30,
     "depth": 30,

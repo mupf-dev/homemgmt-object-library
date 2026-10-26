@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Würfelregal mit 16 gleich großen Fächern (je 33 × 33 cm), z. B. für Kisten und Körbe.",
+  "en": {
+    "name": "Shelf unit 4×4 (cube unit)",
+    "description": "Cube shelf unit with 16 equally sized compartments (33 × 33 cm each), e.g. for boxes and baskets."
+  },
   "size": {
     "width": 147,
     "depth": 39,

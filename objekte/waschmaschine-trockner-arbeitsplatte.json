@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Beide Geräte nebeneinander unter einer gemeinsamen Arbeitsplatte.",
+  "en": {
+    "name": "Washing machine + dryer under worktop",
+    "description": "Both appliances side by side under a shared worktop."
+  },
   "size": {
     "width": 126,
     "depth": 68,

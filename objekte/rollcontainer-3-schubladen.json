@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Rollcontainer unter dem Schreibtisch mit drei Schubladen.",
+  "en": {
+    "name": "Rolling drawer unit, 3 drawers",
+    "description": "Rolling drawer unit for under the desk with three drawers."
+  },
   "size": {
     "width": 43,
     "depth": 56,

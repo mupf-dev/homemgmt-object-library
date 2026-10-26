@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Breites Metallregal aus zwei Feldern à fünf Böden.",
+  "en": {
+    "name": "Wide heavy-duty shelf unit, 2 bays",
+    "description": "Wide metal shelf unit made up of two bays with five shelves each."
+  },
   "size": {
     "width": 180,
     "depth": 50,

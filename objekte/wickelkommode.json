@@ -7,6 +7,10 @@
   "author": "Zuhause",
   "license": "CC0-1.0",
   "description": "Wickelkommode: links drei Schubladen, rechts Tür mit zwei Böden für Windeln und Pflege.",
+  "en": {
+    "name": "Changing table unit",
+    "description": "Changing unit: three drawers on the left, door with two shelves on the right for nappies and care products."
+  },
   "size": {
     "width": 90,
     "depth": 50,
