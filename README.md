@@ -37,6 +37,23 @@ the house plan. Avoid reordering the compartments of a published furniture type 
 `"model": { "file": "modelle/<name>.glb" }` (at most 50 MB, preferably under 5 MB). Only models you hold the rights to
 or that have a free license. homemgmt-ng downloads the model on installation.
 
+**Categories (`group`):** use one of the existing category names. They are stored in German (the app and the gallery
+show them translated), so contributions end up next to the matching furniture types:
+
+| `group` | Meaning |
+|---|---|
+| `Küche` | Kitchen |
+| `Keller & Hauswirtschaft` | Basement & utility room |
+| `Schlafzimmer` | Bedroom |
+| `Wohnzimmer` | Living room |
+| `Bad` | Bathroom |
+| `Schränke & Regale` | Cabinets & shelf units |
+| `Diele` | Hallway |
+| `Arbeitszimmer` | Study |
+| `Werkstatt` | Workshop |
+| `Kinderzimmer` | Children's room |
+| `Garten & Garage` | Garden & garage |
+
 ## Format `zuhause-objekt/1`
 
 ```json
@@ -44,7 +61,7 @@ or that have a free license. homemgmt-ng downloads the model on installation.
   "format": "zuhause-objekt/1",
   "id": "community.schuhschrank-klappen",
   "name": "Shoe cabinet with 2 flaps",
-  "group": "Hallway",
+  "group": "Diele",
   "version": "1.0",
   "author": "…",
   "license": "CC0-1.0",
